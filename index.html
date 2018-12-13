@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Anjo Vahldiek-Oberwagner, Phd-student in Distributed & Operating Systems Group.</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="I focus on storage and distributed systems providing data protections mechanisms and work with my co-advisors Peter Druschel and Deepak Garg as well as fellow students Eslam Elnikety and  Aastha Mehta. Last summer I worked with Ronald Aigner at MSR Redmond on possible usages of Trusted Plattform Modules (TPM) and Intel's Software Guard Extensions (SGX)." />
+		<meta name="keywords" content="Anjo, Vahldiek-Oberwagner, Vahldiek, Guardat, ERIM, memory protection keys" />
+		<meta name="revisit-after" content="30 days">
+		<meta name="publisher" Content="Anjo Vahldiek-Oberwagner">
+		<meta name="Content-Language" Content="en">
+		<meta name="page-topic" Content="Research Homepage of Anjo Vahldiek-Oberwagner">
+		<meta name="page-type" Content="Homepage">
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+<meta name="google-site-verification" content="ObTfbAReQtyFYXC0y4B8KlSRx5L2glWVqclAOV4dafw" />
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<!-- Header -->
+				<section id="header" class="skel-layers-fixed">
+				  <header>
+				    <br>
+						<span class="image avatar"><a href="mailto:vahldiek@mpi-sws.org"><img src="images/avatarbig.jpg" alt="" /></a></span>
+						<h1 id="logo">Anjo Vahldiek-Oberwagner</h1>
+						<p>PhD-student in the <a href="http://sysnets.mpi-sws.org/" target="_blank">distributed systems group</a> at <a href="http://www.mpi-sws.org" target="_blank">MPI-SWS</a> and <a href="http://cs.uni-saarland.de" target="_blank">UdS</a>.</p>
+					</header>
+					<nav id="nav">
+						<ul>
+							<li><a href="http://www.mpi-sws.org/~vahldiek/docs/cvanjovahldiekoberwagner.pdf" target="_blank">CV</a></li>
+							<li><a href="#projects" class="active">Projects</a></li>
+							<li><a href="#publications">Publications</a></li>
+							<li><a href="#posters">Posters</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+					<br>
+					<footer>
+						<ul class="icons">
+							<li><a href="mailto:vahldiek@mpi-sws.org" class="icon fa-at"><span class="label">Email</span></a></li>
+							<li><a href="http://www.mpi-sws.org/index.php?n=people/Anjo_Vahldiek" target="_blank" class="icon fa-envelope"><span class="label">Mail address</span></a></li>
+
+							<li><a href="http://de.linkedin.com/in/vahldiek" target="_blank" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/vahldiek" target="_blank" class="icon fa-github-square"><span class="label">Github</span></a></li>
+			<li><a href="public.asc" target="_blank" class="icon fa-key"><span class="label">PublicKey</span></a></li>
+						</ul>
+					</footer>
+				</section>
+
+			<!-- Main -->
+				<div id="main">
+
+					<!-- One -->
+						<section id="about">
+							<div class="container">
+									<h2>About</h2>
+									<p align="justify">I'm interested in analyzing, desiging, building and evaluating software systems. During my PhD I focused on systems providing data confidentiality and integrity for persistent and in-memory data. I'm glad to collaborate with my co-advisors <a href="http://www.mpi-sws.org/~druschel/" target="_blank">Peter Druschel</a> and <a href="http://www.mpi-sws.org/~dg/" target="_blank">Deepak Garg</a> as well as fellow students <a href="http://www.mpi-sws.org/~elnikety/" target="_blank">Eslam Elnikety</a> and <a href="http://www.mpi-sws.org/~aasthakm/" target="_blank">Aastha Mehta</a>. </p>
+							</div>
+						</section>
+						
+						<!-- Two -->
+						<section id="projects">
+						  <div class="container">
+						    <h2>Projects</h2>						
+						    <div class="row">
+						      <article class="6u 12u$(3) work-item">
+							<h4>ERIM: Secure, Efficient In-process Isolation with Memory Protection Keys</h4>
+							<p>Isolating sensitive data and state can increase the security and robustness of many applications.
+							  Applications, such as isolating cryptographic session keys in a
+							  network-facing application or isolating frequently invoked native libraries in managed runtimes,
+							  require very frequent domain switching. In such applications, the overhead of kernel- or
+							  hypervisormediated domain switching is prohibitive.<br>
+							  ERIM is a novel technique that provides hardware-enforced isolation
+							  with low overhead, even at high switching rates (ERIM's average overhead is less than 1% for
+							  100,000 switches per second). The key idea is to combine memory protection keys (MPKs), a
+							  feature recently added to Intel CPUs that allows protection domain switches in userspace,
+							  with binary inspection to prevent circumvention. We show that ERIM can be applied with little
+							  effort to new and existing applications, doesn't require compiler changes and can run
+							  on a stock Linux kernel.
+							</p>
+						      </article>
+						      <!--
+							  <article class="6u 12u$(3) work-item">
+							    <h4>Thoth: Practical data flow protection in a search engine</h4>
+							    <p>Online data retrieval
+							      services like commercial
+							      search engines, online social
+							      networking, and trading and
+							      sharing sites process large
+							      volumes of data of different
+							      origins and types. Each data
+							      item indexed by a search
+							      engine, such as, online social
+							      network (OSN) data, personal
+							      email, corporate documents,
+							      public web documents, has its
+							      own usage policy. For example,
+							      email is private, OSN data and
+							      blogs may be limited to
+							      friends, and corporate
+							      documents may be restricted to
+							      employees. Furthermore,
+							      providers may have to filter
+							      certain data items in order to
+							      comply with local laws and
+							      court orders. Ensuring
+							      compliance with applicable
+							      policies in such a complex
+							      system, however, is a
+							      labor-intensive and error
+							      prone challenge. In Thoth we
+							      explore the problem of
+							      providing a practical safety
+							      net for policy compliance in a
+							      search engine.</p>
+							  </article>
+							  -->
+						    <!--</div>								    <div class="row">
+						      
+						      <article class="6u 12u$(3) work-item">
+							<h4>Light-weight Contexts: An OS Abstraction for Safety and Performance</h4>
+							<p>Light-weight contexts (lwCs) provides independent units of protection, privilege, and execution
+							  state within a process. A process may include several lwCs, each with possibly different views
+							  of memory, file descriptors, and access capabilities. lwCs can be used to efficiently implement
+							  roll-back, isolated address spaces, and privilege separation in a single process. The overhead of
+							  a lwC is proportional to the amount of memory exclusive to the lwC; switching lwCs is quicker than
+							  switching kernel threads within the same process. We prototype lwCs within the FreeBSD 11.0 kernel 
+							  and evaluate common usage patterns, including fast rollback, session isolation, sensitive data
+							  isolation, and inprocess reference monitoring, using Apache,
+							  nginx, PHP, and OpenSSL.</p>
+						      </article>-->
+						      <article class="6u 12u$(3) work-item">
+							<h4>Guardat: Enforcing data policies at the storage layer</h4>
+							<p>In today’s systems, policies protecting stored data and mechanisms
+							  for their enforcement are spread across many software
+							  components, increasing the risk of violation due to
+							  bugs, vulnerabilities and misconfigurations. Guardat addresses
+							  this problem. Users, developers and administrators specify
+							  file protection policies declaratively, concisely and separate
+							  from code, and Guardat enforces these policies by mediating I/O
+							  in the storage layer. Thus, policy enforcement relies only on
+							  the integrity of the Guardat controller and any external policy
+							  dependencies. The semantic gap between the storage layer
+							  enforcement and per-file policies is bridged using cryptographic
+							  attestations from Guardat. We show experimentally that the overhead is
+							  low.<br>
+							</p>
+						      </article>
+						      <!--
+						      <article class="6u$ 12u$(3) work-item">
+							<h4>Storage lease</h4>
+							<p>A storage leases is a storage primitive preventing to overwrite stored data for a
+							  pre-determined period (lease period). During the lease period, online data is protected from corruption due to security
+							  breaches, software errors, or accidental data deletion. Storage leases ﬁll an important gap in the spectrum of
+							  data protection options because they combine strong integrity for online data with the ability to eventually
+							  reclaim storage. A simulation-based evaluation indicates that storage leases have a
+							  modest performance cost for most workloads on magnetic disks. Using a small amount of flash memory, this
+							  overhead can be reduced to near zero.</p>
+						      </article>
+						      -->
+						    </div>
+						    <!--
+						    <p class="top"><a href="#about" class="icon fa-angle-double-up "><span class="label">Top</span></a></p>
+						    <div class="row">						      
+						      <article class="12u 12u$(3) work-item">
+							<h4>Dependable Wireless Safety-Critical Hard-Real-Time Design</h4>
+							<p>Design, implementation and verification of a wireless electric bicycle brake using <a href="http://
+																		       wsn.chess.nl/" target="_blank">Chess's MyriaNed</a> nodes and Modest.
+							  Assumptions: 250 ms total reaction time (100 ms mechanical reaction time, 150 ms for communication), no
+							  fail-safe, ~60% message loss rate. This <a href="http://www.youtube.com/watch
+													   ?v=K6SNzAMLDjU&feature=results_video&lr=1&ob=0" target="_blank">video</a> demonstrates the wireless bicycle brake.<br><strong>Press:</strong> <a href="http://www.youtube.com/watch?v=EswhmZe47UM" target="_blank">Video</a> (DRS 3 - Digital filming our demo at CeBit), <a href="http://whatsnext.blogs.cnn.com/2012/03/26/coming-to-your-bicycle-wireless-braking/" target="_blank">CNN</a>, <a href="http://www.zdnet.com/blog/emergingtech/a-wireless-bicycle-brake-with-11-nines-reliability/2904" target="_blank">ZDNet</a>, <a href="http://news.cnet.com/8301-27083_3-20119986-247/computer-scientists-design-wireless-bike-brake/?part=rss&subj=news" target="_blank">CNET</a>, <a href="http://gizmodo.com/5849626/these-wireless-bike-brake-concepts-fail-maybe-three-times-in-a-trillion" target="_blank">GIZMODO</a>, <a href="http://www.engadget.com/2011/10/17/wireless-bike-brake-system-has-the-highest-gpa-ever/" target="_blank">Engadget</a>, <a href="http://science.slashdot.org/story/11/10/14/1211257/scientists-build-wireless-bicycle-brakes" target="_blank">Slashdot</a></p>
+						      </article>
+						    </div>
+						    <p class="top"><a href="#about" class="icon fa-angle-double-up "><span class="label">Top</span></a></p>
+						    -->
+						  </div>
+						</section>
+						
+						<!-- Three -->
+						<section id="publications">
+							<div class="container">
+								<h2>Publications</h2>
+								<a href="http://dblp.uni-trier.de/pers/hd/v/Vahldiek=Oberwagner:Anjo" target="_blank">DBLP</a> | <a href="http://scholar.google.de/citations?user=bLR7-XQAAAAJ" target="_blank">Google Scholar</a> | <a href="https://www.semanticscholar.org/author/Anjo-Vahldiek-Oberwagner/2807959" target="_blank">SemanticScholar</a><br/><br/>
+								<ul class="alt">
+								  <li>
+									  <b><i>PESOS: Policy Enhanced Secure Object Store</i></b> <a href="papers/Pesos-EuroSys18.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>
+ <p style="margin:0px;padding:0px;margin-left:20px;">
+										<a href="https://tu-dresden.de/ing/informatik/sya/se/die-professur/beschaeftigte/RobertKrahn" target="_blank">Robert Krahn</a>, <a href="https://tu-dresden.de/ing/informatik/sya/se/die-professur/beschaeftigte/bohdan-trach" target="_blank">Bohdan Trach</a>, <b>Anjo Vahldiek-Oberwagner</b>, <a href="https://tu-dresden.de/ing/informatik/sya/se/die-professur/alumni/thomas-knauth" target="_blank">Thomas Knauth</a>, <a href="http://homepages.inf.ed.ac.uk/pbhatoti/" target="_blank">Pramod Bhatotia</a>, <a href="https://tu-dresden.de/ing/informatik/sya/se/die-professur/inhaber-in" target="_blank">Christof Fetzer</a>
+										<br>
+										<b><a href="http://www.eurosys2018.org/" target="_blank">ACM EuroSys</a></b>, 2018
+ </p>
+									</li>
+																	  	<li>
+																		  <b><i>ERIM: Secure, Efficient In-process Isolation with Memory Protection Keys</i></b> <a href="https://arxiv.org/pdf/1801.06822" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>
+ <p style="margin:0px;padding:0px;margin-left:20px;">
+										<b>Anjo Vahldiek-Oberwagner</b>, <a href="http://www.mpi-sws.org/~elnikety/" target="_blank">Eslam Elnikety</a>, Nuno O. Duarte, <a href="http://www.mpi-sws.org/~druschel/" target="_blank">Peter Druschel</a>, <a href="http://www.mpi-sws.org/~dg/" target="_blank">Deepak Garg</a>
+										<br>
+										<b><a href="https://arxiv.org/abs/1801.06822" target="_blank">arXiv</a></b>, 2018 (under submission)
+ </p>
+ </li>
+	<li>
+										<b><i>Light-Weight Contexts: An OS Abstraction for Safety and Performance</i></b> <a href="papers/light-weight-contexts-osdi-2016.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>&nbsp;<a href="http://cs.umd.edu/projects/lwc/" target="_blank" class="icon fa-git"><span class="label">Git</span></a>
+ <p style="margin:0px;padding:0px;margin-left:20px;">
+										James Litton, <b>Anjo Vahldiek-Oberwagner</b>, <a href="http://www.mpi-sws.org/~elnikety/" target="_blank">Eslam Elnikety</a>, <a href="http://www.mpi-sws.org/~dg/" target="_blank">Deepak Garg</a>, <a href="http://www.cs.umd.edu/~bobby/" target="_blank">Bobby Bhattacharjee</a>, <a href="http://www.mpi-sws.org/~druschel/" target="_blank">Peter Druschel</a>
+										<br>
+										<b><a href="https://www.usenix.org/conference/osdi16/technical-sessions" target="_blank">Usenix OSDI</a></b>, 2016
+										</p>
+		</li>	<li>
+										<b><i>Thoth: Comprehensive Policy Compliance in Data Retrieval Systems</i></b> <a href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_elnikety.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>
+ <p style="margin:0px;padding:0px;margin-left:20px;">
+										<a href="http://www.mpi-sws.org/~elnikety/" target="_blank">Eslam Elnikety</a>, <a href="http://www.mpi-sws.org/~aasthakm/" target="_blank">Aastha Mehta</a>, <b>Anjo Vahldiek-Oberwagner</b>, <a href="http://www.mpi-sws.org/~dg/" target="_blank">Deepak Garg</a>, <a href="http://www.mpi-sws.org/~druschel/" target="_blank">Peter Druschel</a>
+										<br>
+										<b><a href="https://www.usenix.org/conference/usenixsecurity16/technical-sessions" target="_blank">Usenix Security</a></b>, 2016
+										</p>
+		</li>
+
+									<li>
+										<b><i>Guardat: Enforcing data policies at the storage layer</i></b> <a href="papers/eurosys15-guardat.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a> <a href="http://www.mpi-sws.org/tr/2014-002.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a> <a href="slides/eurosys15-vahldiek-talk.pptx" target="_blank" class="icon fa-file-powerpoint-o"><span class="label">Slides</span></a> <a href="http://www.mpi-sws.org/~vahldiek/posters/eurosys15-vahldiek-poster.pdf" target="_blank" class="icon fa-file-image-o"><span class="label">Poster</span></a> <a href="https://youtu.be/xSXlOogET8Q?list=PLn0nrSd4xjjbDQCELCxomxrx7UuZ3IzVH" target="_blank" class="icon fa-youtube-play"><span class="label">Video</span></a>
+										<p style="margin:0px;padding:0px;margin-left:20px;">
+										<b>Anjo Vahldiek-Oberwagner</b>, <a href="http://www.mpi-sws.org/~elnikety/" target="_blank">Eslam Elnikety</a>, <a href="http://www.mpi-sws.org/~aasthakm/" target="_blank">Aastha Mehta</a>, <a href="http://www.mpi-sws.org/~dg/" target="_blank">Deepak Garg</a>, <a href="http://www.mpi-sws.org/~druschel/" target="_blank">Peter Druschel</a>, <a href="http://www.mpi-sws.org/~abpost/" target="_blank">Ansley Post</a>, <a href="http://www.mpi-sws.org/~rodrigo/" target="_blank">Rodrigo Rodrigues</a>, <a href="http://www.cs.cornell.edu/johannes/" target="_blank">Johannes Gehrke</a>
+										<br>
+										<b><a href="http://eurosys2015.labri.fr/program/papers/" target="_blank">ACM EuroSys</a></b>, 2015
+										</p>
+		</li>
+									<li>
+										<b><i>Protecting Data Integrity with Storage Leases</i></b> <a href="http://www.mpi-sws.org/cont/tr/2011-008.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a> <a href="https://www.google.com/patents/US9165155" target="_blank" class="icon fa-file-text-o"><span class="label">Patent</span></a>
+										<p style="margin:0px;padding:0px;margin-left:20px;">
+										<b>Anjo Vahldiek</b>, <a href="http://www.mpi-sws.org/~elnikety/" target="_blank">Eslam Elnikety</a>, <a href="http://www.mpi-sws.org/~abpost/" target="_blank">Ansley Post</a>, <a href="http://www.mpi-sws.org/~druschel/" target="_blank">Peter Druschel</a>, <a href="http://www.mpi-sws.org/~rodrigo/" target="_blank">Rodrigo Rodrigues</a>
+										<br>
+										<a href="http://www.mpi-sws.org/cont/tr/2011-008.pdf" target="_blank">Technical Report 2011-008</a>, MPI-SWS, 2011 and US Patent <a href="https://www.google.com/patents/US9165155" target="_blank">9,165,155</a>
+										</p>
+									</li>
+									<li>
+										<b><i>A Verified Dependable Wireless Safety Critical Hard Real-Time Design</i></b> <a href="papers/wowmom.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a>
+										<p style="margin:0px;padding:0px;margin-left:20px;">
+										<a href="http://depend.cs.uni-sb.de/index.php?534" target="_blank">Hernan Baro Graf</a>, <a href="http://depend.cs.uni-sb.de/index.php?id=hermanns" target="_blank">Holger Hermanns</a>, <a href="http://www.mpi-sws.org/~juhi/" target="_blank">Juhi Kulshrestha</a>, Jens Peter, <b>Anjo Vahldiek</b>, <a href="http://www.aravindvasudevan.com/" target="_blank">Aravind Vasudevan</a>
+										<br>
+										<b><a href="http://wowmom2011.imtlucca.it/techprogram.html" target="_blank">IEEE WoWMoM</a></b>, 2011
+										</p>
+									</li>
+								</ul>
+
+							<p class="top"><a href="#about" class="icon fa-angle-double-up "><span class="label">Top</span></a></p>
+							</div>
+						</section>
+						
+					<!-- Four -->
+						<section id="posters">
+							<div class="container">
+								<h2>Posters</h2>
+								<ul class="alt">
+									<li>
+										<b><i>Thoth: Enforcing Data Confidentiality and Integrity in Data Retrieval Systems </i></b> <a href="http://www.mpi-sws.org/~elnikety/Eslam_Elnikety_Web_Page_files/postersosp13.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a> <a href="http://www.mpi-sws.org/~elnikety/Eslam_Elnikety_Web_Page_files/sosp13_poster_54.pdf" target="_blank" class="icon fa-file-image-o"><span class="label">Poster</span></a>
+										<p style="margin:0px;padding:0px;margin-left:20px;">
+										<a href="http://www.mpi-sws.org/~elnikety/" target="_blank">Eslam Elnikety</a>, <b>Anjo Vahldiek</b>, <a href="http://www.mpi-sws.org/~aasthakm/" target="_blank">Aastha Mehta</a>, <a href="http://www.mpi-sws.org/~dg/" target="_blank">Deepak Garg</a>, <a href="http://www.mpi-sws.org/~druschel/" target="_blank">Peter Druschel</a>
+										<br>
+										Work in Progress/Poster <b><a href="http://sigops.org/sosp/sosp13/wipslist.html" target="_blank">ACM SOSP</a></b>, 2013
+										</p>
+		</li>
+									<li>
+										<b><i>Trusted Storage </i></b> <a href="http://static.usenix.org/events/fast12/poster_descriptions/Vahldiekdescription.pdf" target="_blank" class="icon fa-file-pdf-o"><span class="label">PDF</span></a> <a href="http://www.mpi-sws.org/~vahldiek/posters/fast12_trustedstorage_poster.pdf" target="_blank" class="icon fa-file-image-o"><span class="label">Poster</span></a> <a href="http://youtu.be/jhpyc03z1p0" target="_blank" class="icon fa-youtube-play"><span class="label">Video</span></a> <a href="http://www.mpi-sws.org/~vahldiek/slides/trusted_storage_fast12.pptx" target="_blank" class="icon fa-file-powerpoint-o"><span class="label">Slides</span></a>
+										<p style="margin:0px;padding:0px;margin-left:20px;">
+										<b>Anjo Vahldiek</b>, <a href="http://www.mpi-sws.org/~elnikety/" target="_blank">Eslam Elnikety</a>, <a href="http://www.mpi-sws.org/~abpost/" target="_blank">Ansley Post</a>, <a href="http://www.mpi-sws.org/~druschel/" target="_blank">Peter Druschel</a>, <a href="http://www.mpi-sws.org/~rodrigo/" target="_blank">Rodrigo Rodrigues</a>, <a href="http://www.cs.cornell.edu/johannes/" target="_blank">Johannes Gehrke</a>
+										<br>
+										Work in Progress/Poster <b><a href="https://www.usenix.org/legacy/events/fast12/wips.html" target="_blank">USENIX FAST</a></b>, 2012
+										</p>
+									</li>
+								</ul>
+
+							<p class="top"><a href="#about" class="icon fa-angle-double-up "><span class="label">Top</span></a></p>
+							</div>
+						</section>
+					
+						<section id="contact">
+							<div class="container">
+								<h2>Contact</h2>
+								Email: <a href="mailto:vahldiek@mpi-sws.org">vahldiek@mpi-sws.org</a><br>
+								Public key: <a href="public.asc">gpg</a><br>
+								</p>
+							<p class="top"><a href="#about" class="icon fa-angle-double-up "><span class="label">Top</span></a></p>
+							</div>
+						</section>
+
+				
+				</div>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<ul class="copyright">
+							<li>&copy; Anjo Vahldiek-Oberwagner, December 2018. All rights reserved.</li>
+						</ul>
+					</div>
+				</section>
+			
+		</div>
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29876955-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	</body>
+</html>
