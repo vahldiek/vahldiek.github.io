@@ -33,7 +33,7 @@
 /* Main */
 
 	#main > section > .container {
-		padding: 1em 0 0em 0;
+		padding: 0 0 0em 0;
 		width: 50em;
 		margin-left:0;
 	}
