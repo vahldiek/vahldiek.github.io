@@ -16,6 +16,28 @@
 		<meta name="Content-Language" Content="en">
 		<meta name="page-topic" Content="Research Homepage of Anjo Vahldiek-Oberwagner">
 		<meta name="page-type" Content="Homepage">
+		<script>
+		  function onReady(callback) {
+		  var intervalId = window.setInterval(function() {
+		  if (document.getElementsByTagName('body')[0] !== undefined) {
+		  window.clearInterval(intervalId);
+		  callback.call(this);
+		  }
+		  }, 1000);
+		  }
+
+		  function setVisible(selector, visible) {
+		  document.querySelector(selector).style.display = visible ? 'block' : 'none';
+		  }
+
+		  onReady(function() {
+		  setVisible('.page', true);
+		  setVisible('footer', true);
+		  setVisible('header', true);
+		  setVisible('nav', true);
+		  setVisible('#loading', false);
+		  });
+		  </script>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.scrollzer.min.js"></script>
@@ -33,17 +55,20 @@
 <meta name="google-site-verification" content="ObTfbAReQtyFYXC0y4B8KlSRx5L2glWVqclAOV4dafw" />
 	</head>
 	<body>
+	  <div id="loading"></div>
+
+	  <div class="page" style="display:none">
 		<div id="wrapper">
 
 			<!-- Header -->
 				<section id="header" class="skel-layers-fixed">
-				  <header>
+				  <header style="display:none">
 				    <br>
 						<span class="image avatar"><a href="mailto:vahldiek@mpi-sws.org"><img src="images/avatarbig.jpg" alt="" /></a></span>
 						<h1 id="logo">Anjo Vahldiek-Oberwagner</h1>
 						<p>PhD-student in the <a href="http://sysnets.mpi-sws.org/" target="_blank">distributed systems group</a> at <a href="http://www.mpi-sws.org" target="_blank">MPI-SWS</a> and <a href="http://cs.uni-saarland.de" target="_blank">UdS</a>.</p>
 					</header>
-					<nav id="nav">
+					<nav id="nav"  style="display:none">
 						<ul>
 							<li><a href="http://www.mpi-sws.org/~vahldiek/docs/cvanjovahldiekoberwagner.pdf" target="_blank">CV</a></li>
 							<li><a href="#projects" class="active">Projects</a></li>
@@ -53,7 +78,7 @@
 						</ul>
 					</nav>
 					<br>
-					<footer>
+					<footer  style="display:none">
 						<ul class="icons">
 							<li><a href="mailto:vahldiek@mpi-sws.org" class="icon fa-at"><span class="label">Email</span></a></li>
 							<li><a href="http://www.mpi-sws.org/index.php?n=people/Anjo_Vahldiek" target="_blank" class="icon fa-envelope"><span class="label">Mail address</span></a></li>
@@ -310,7 +335,7 @@
 				</section>
 			
 		</div>
-
+</div>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29876955-1"></script>
 <script>
