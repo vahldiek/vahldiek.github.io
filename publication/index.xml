@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Anjo Vahldiek-Oberwagner</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Anjo Vahldiek-Oberwagner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pesos: Policy Enhanced Secure Object store</title>
+      <link>/publication/krahn-2018/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/krahn-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</title>
+      <link>/publication/vahldiek-2018-erim/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/vahldiek-2018-erim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Light-Weight Contexts: An OS Abstraction for Safety and Performance</title>
+      <link>/publication/litton-2016/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/litton-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thoth : Comprehensive Policy Compliance in Data Retrieval Systems</title>
+      <link>/publication/elnikety-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/elnikety-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guardat: Enforcing data policies at the storage layer</title>
+      <link>/publication/vahldiek-oberwagner-2015/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/vahldiek-oberwagner-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting Data Integrity with Storage Leases</title>
+      <link>/publication/vahldiek-2011/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/vahldiek-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A verifiedwireless safety critical hard real-time design</title>
+      <link>/publication/graf-2011-verifiedwireless/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/graf-2011-verifiedwireless/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

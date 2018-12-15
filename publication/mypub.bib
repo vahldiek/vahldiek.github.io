@@ -1,0 +1,64 @@
+@inproceedings{VahldiekOberwagner2015,
+author = {Vahldiek-Oberwagner, Anjo and Elnikety, Eslam and Mehta, Aastha and Garg, Deepak and Druschel, Peter and Rodrigues, Rodrigo and Gehrke, Johannes and Post, Ansley},
+booktitle = {Proceedings of the ACM European Conference on Computer Systems (EuroSys)},
+title = {{Guardat: Enforcing data policies at the storage layer}},
+url = {http://dl.acm.org/citation.cfm?doid=2741948.2741958},
+year = {2015},
+month = {April},
+day = {17}
+}
+
+@inproceedings{Krahn:2018,
+author = {Krahn, Robert and Trach, Bohdan and Vahldiek-Oberwagner, Anjo and Knauth, Thomas and Bhatotia, Pramod and Fetzer, Christof},
+booktitle = {Proceedings of the ACM European Conference on Computer Systems (EuroSys)},
+title = {{Pesos: Policy Enhanced Secure Object store}},
+url = {https://vahldiek.github.io/papers/Pesos-EuroSys18.pdf},
+year = {2018},
+month = {april},
+day = {23}
+}
+
+@techreport{Vahldiek2011,
+abstract = {We present a storage primitive called a storage lease. Data stored under a lease cannot be written for a pre-determined period. During the lease period, online data is protected from corruption due to security breaches, software errors, or accidental data deletion. Storage leases fill an important gap in the spectrum of data protection options because they combine strong integrity for online data with the ability to eventually reclaim storage. We define the storage lease primitive, show how it can be implemented in storage device firmware, and discuss its applications. A simulation-based evaluation indicates that storage leases have a modest performance cost for most workloads on magnetic disks. Using a small amount of flash memory, this overhead can be reduced to near zero.},
+author = {Vahldiek, Anjo and Elnikety, Eslam and Post, Ansley and Druschel, Peter and Rodrigues, Rodrigo},
+file = {:home/vahldiek/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Vahldiek et al. - 2011 - Protecting Data Integrity with Storage Leases.pdf:pdf},
+institution = {Max-Planck-Institute for Software Systems},
+title = {{Protecting Data Integrity with Storage Leases}},
+url = {https://www.mpi-sws.org/tr/2011-008.pdf},
+year = {2011},
+month = {august}
+}
+
+@inproceedings{graf2011verifiedwireless,
+  title={A verifiedwireless safety critical hard real-time design},
+  author={Graf, Hern{\'a}n Bar{\'o} and Hermanns, Holger and Kulshrestha, Juhi and Peter, Jens and Vahldiek, Anjo and Vasudevan, Aravind},
+  booktitle={World of Wireless, Mobile and Multimedia Networks (WoWMoM), 2011 IEEE International Symposium on a},
+  year={2011},
+}
+
+@inproceedings{Elnikety2016,
+abstract = {Data retrieval systems process data from many sources, each subject to its own data use policy. Ensuring compli-ance with these policies despite bugs, misconfiguration, or operator error in a large, complex, and fast evolving system is a major challenge. Thoth provides an effi-cient, kernel-level compliance layer for data use policies. Declarative policies are attached to the systems' input and output files, key-value tuples, and network connec-tions, and specify the data's integrity and confidential-ity requirements. Thoth tracks the flow of data through the system, and enforces policy regardless of bugs, mis-configurations, compromises in application code, or ac-tions by unprivileged operators. Thoth requires minimal changes to an existing system and has modest overhead, as we show using a prototype Thoth-enabled data re-trieval system based on the popular Apache Lucene.},
+author = {Elnikety, Eslam and Mehta, Aastha and Vahldiek-oberwagner, Anjo and Garg, Deepak and Druschel, Peter},
+booktitle = {Proceedings of the USENIX Security Symposium},
+title = {{Thoth : Comprehensive Policy Compliance in Data Retrieval Systems}},
+url = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/elnikety},
+year = {2016}
+}
+
+@inproceedings{Litton2016,
+abstract = {We introduce a new OS abstraction—light-weight con- texts (lwCs)—that provides independent units of protec- tion, privilege, and execution state within a process. A process may include several lwCs, each with possibly different views of memory, file descriptors, and access capabilities. lwCs can be used to efficiently implement roll-back (process can return to a prior recorded state), isolated address spaces (lwCs within the process may have different views of memory, e.g., isolating sensitive data from network-facing components or isolating differ- ent user sessions), and privilege separation (in-process reference monitors can arbitrate and control access). lwCs can be implemented efficiently: the overhead of a lwC is proportional to the amount of memory exclu- sive to the lwC; switching lwCs is quicker than switching kernel threads within the same process. We describe the lwC abstraction and API, and an implementation of lwCs within the FreeBSD 11.0 kernel. Finally, we present an evaluation of common usage patterns, including fast roll- back, session isolation, sensitive data isolation, and in- process reference monitoring, using Apache, nginx, PHP, and OpenSSL.},
+author = {Litton, James and Vahldiek-Oberwagner, Anjo and Elnikety, Eslam and Garg, Deepak and Bhattacharjee, Bobby and Druschel, Peter},
+booktitle = {Proceedings of the USENIX Symposium on Operating Systems Design and Implementation (OSDI)},
+keywords = {Max Planck Institute for Software Systems,University of Maryland},
+title = {{Light-Weight Contexts: An OS Abstraction for Safety and Performance}},
+url = {https://www.usenix.org/conference/osdi16/technical-sessions/presentation/litton},
+year = {2016},
+month = {Oct}
+}
+
+@article{vahldiek2018erim,
+  title={ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys},
+  author={Vahldiek-Oberwagner, Anjo and Elnikety, Eslam and Duarte, Nuno M. and Druschel, Peter and Garg, Deepak},
+  journal={arXiv preprint arXiv:1801.06822},
+  year={2018}
+}

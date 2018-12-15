@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>secure storage on Anjo Vahldiek-Oberwagner</title>
+    <link>/tags/secure-storage/</link>
+    <description>Recent content in secure storage on Anjo Vahldiek-Oberwagner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 15 Dec 2018 00:24:47 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/secure-storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Protecting Persistent Data</title>
+      <link>/project/guardat/</link>
+      <pubDate>Sat, 15 Dec 2018 00:24:47 +0100</pubDate>
+      
+      <guid>/project/guardat/</guid>
+      <description>In today’s systems, policies protecting stored data and mechanisms for their enforcement are spread across many software components, increasing the risk of violation due to bugs, vulnerabilities and misconfigurations. We suggest Guardat to addresses this problem. Users, developers and administrators specify file protection policies declaratively, concisely and separate from code, and Guardat enforces these policies by mediating I/O in the storage layer. Thus, policy enforcement relies only on the integrity of the Guardat controller and any external policy dependencies.</description>
+    </item>
+    
+  </channel>
+</rss>
