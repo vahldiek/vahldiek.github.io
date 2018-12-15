@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>memory isolation on Anjo Vahldiek-Oberwagner</title>
-    <link>/tags/memory-isolation/</link>
+    <link>https://vahldiek.github.io/tags/memory-isolation/</link>
     <description>Recent content in memory isolation on Anjo Vahldiek-Oberwagner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sat, 15 Dec 2018 00:24:42 +0100</lastBuildDate>
     
-	<atom:link href="/tags/memory-isolation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vahldiek.github.io/tags/memory-isolation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Secure, Efficient In-Process Memory Isolation</title>
-      <link>/project/erim/</link>
+      <link>https://vahldiek.github.io/project/erim/</link>
       <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
       
-      <guid>/project/erim/</guid>
+      <guid>https://vahldiek.github.io/project/erim/</guid>
       <description>Isolating sensitive data and state can increase the security and robustness of many applications. Applications, such as isolating cryptographic session keys in a network-facing application or isolating frequently invoked native libraries in managed runtimes, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisormediated domain switching is prohibitive. We suggest ERIM, a novel technique, that provides hardware-enforced isolation with low overhead, even at high switching rates (ERIM&amp;rsquo;s average overhead is less than 1% for 100,000 switches per second).</description>
     </item>
     

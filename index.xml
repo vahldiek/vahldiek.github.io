@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anjo Vahldiek-Oberwagner on Anjo Vahldiek-Oberwagner</title>
-    <link>/</link>
+    <link>https://vahldiek.github.io/</link>
     <description>Recent content in Anjo Vahldiek-Oberwagner on Anjo Vahldiek-Oberwagner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,20 +12,20 @@
     
     <item>
       <title>Protecting Persistent Data</title>
-      <link>/project/guardat/</link>
+      <link>https://vahldiek.github.io/project/guardat/</link>
       <pubDate>Sat, 15 Dec 2018 00:24:47 +0100</pubDate>
       
-      <guid>/project/guardat/</guid>
+      <guid>https://vahldiek.github.io/project/guardat/</guid>
       <description>&lt;p&gt;In today’s systems, policies protecting stored data and mechanisms for their enforcement are spread across many software components, increasing the risk of violation due to bugs, vulnerabilities and misconfigurations. We suggest Guardat to addresses this problem. Users, developers and administrators specify file protection policies declaratively, concisely and separate from code, and Guardat enforces these policies by mediating I/O in the storage layer. Thus, policy enforcement relies only on the integrity of the Guardat controller and any external policy dependencies. The semantic gap between the storage layer enforcement and per-file policies is bridged using cryptographic attestations from Guardat. We show experimentally that the overhead is low.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Secure, Efficient In-Process Memory Isolation</title>
-      <link>/project/erim/</link>
+      <link>https://vahldiek.github.io/project/erim/</link>
       <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
       
-      <guid>/project/erim/</guid>
+      <guid>https://vahldiek.github.io/project/erim/</guid>
       <description>&lt;p&gt;Isolating sensitive data and state can increase the security and robustness of many applications. Applications, such as isolating cryptographic session keys in a network-facing application or isolating frequently invoked native libraries in managed runtimes, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisormediated domain switching is prohibitive.
 We suggest ERIM, a novel technique, that provides hardware-enforced isolation with low overhead, even at high switching rates (ERIM&amp;rsquo;s average overhead is less than 1% for 100,000 switches per second). The key idea is to combine memory protection keys (MPKs), a feature recently added to Intel CPUs that allows protection domain switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little effort to new and existing applications, doesn&amp;rsquo;t require compiler changes and can run on a stock Linux kernel.&lt;/p&gt;
 </description>
@@ -33,64 +33,64 @@ We suggest ERIM, a novel technique, that provides hardware-enforced isolation wi
     
     <item>
       <title>Pesos: Policy Enhanced Secure Object store</title>
-      <link>/publication/krahn-2018/</link>
+      <link>https://vahldiek.github.io/publication/krahn-2018/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
       
-      <guid>/publication/krahn-2018/</guid>
+      <guid>https://vahldiek.github.io/publication/krahn-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</title>
-      <link>/publication/vahldiek-2018-erim/</link>
+      <link>https://vahldiek.github.io/publication/vahldiek-2018-erim/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
       
-      <guid>/publication/vahldiek-2018-erim/</guid>
+      <guid>https://vahldiek.github.io/publication/vahldiek-2018-erim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Light-Weight Contexts: An OS Abstraction for Safety and Performance</title>
-      <link>/publication/litton-2016/</link>
+      <link>https://vahldiek.github.io/publication/litton-2016/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
       
-      <guid>/publication/litton-2016/</guid>
+      <guid>https://vahldiek.github.io/publication/litton-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoth : Comprehensive Policy Compliance in Data Retrieval Systems</title>
-      <link>/publication/elnikety-2016/</link>
+      <link>https://vahldiek.github.io/publication/elnikety-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
       
-      <guid>/publication/elnikety-2016/</guid>
+      <guid>https://vahldiek.github.io/publication/elnikety-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guardat: Enforcing data policies at the storage layer</title>
-      <link>/publication/vahldiek-oberwagner-2015/</link>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0200</pubDate>
       
-      <guid>/publication/vahldiek-oberwagner-2015/</guid>
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Protecting Data Integrity with Storage Leases</title>
-      <link>/publication/vahldiek-2011/</link>
+      <link>https://vahldiek.github.io/publication/vahldiek-2011/</link>
       <pubDate>Mon, 01 Aug 2011 00:00:00 +0200</pubDate>
       
-      <guid>/publication/vahldiek-2011/</guid>
+      <guid>https://vahldiek.github.io/publication/vahldiek-2011/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A verifiedwireless safety critical hard real-time design</title>
-      <link>/publication/graf-2011-verifiedwireless/</link>
+      <link>https://vahldiek.github.io/publication/graf-2011-verifiedwireless/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
       
-      <guid>/publication/graf-2011-verifiedwireless/</guid>
+      <guid>https://vahldiek.github.io/publication/graf-2011-verifiedwireless/</guid>
       <description></description>
     </item>
     
