@@ -32,6 +32,15 @@ We suggest ERIM, a novel technique, that provides hardware-enforced isolation wi
     </item>
     
     <item>
+      <title>Techniques to Protect Confidentiality and Integrity of Persistent and In-Memory Data</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pesos: Policy Enhanced Secure Object store</title>
       <link>https://vahldiek.github.io/publication/krahn-2018/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
