@@ -15,23 +15,7 @@
   
     
   
-  <meta name="description" content="Isolating sensitive data and state can increase the security
-and robustness of many applications. Examples include protecting cryptographic keys against exploits like OpenSSL’s
-Heartbleed bug or protecting a language runtime from native libraries written in unsafe languages. When runtime
-references across isolation boundaries occur relatively infrequently, then page-based hardware isolation can be used,
-because the cost of kernel- or hypervisor-mediated domain
-switching is tolerable. However, some applications, such as
-isolating cryptographic session keys in a network-facing application or isolating frequently invoked native libraries in
-managed runtimes, require very frequent domain switching.
-In such applications, the overhead of kernel- or hypervisormediated domain switching is prohibitive.
-In this paper, we present ERIM, a novel technique that
-provides hardware-enforced isolation with low overhead,
-even at high switching rates (ERIM’s average overhead is
-less than 1% for 100,000 switches per second). The key idea
-is to combine memory protection keys (MPKs), a feature recently added to Intel CPUs that allows protection domain
-switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little
-effort to new and existing applications, doesn’t require compiler changes, can run on a stock Linux kernel, and has low
-runtime overhead even at high domain switching rates">
+  <meta name="description" content="Isolating sensitive data and state can increase the security and robustness of many applications. Examples include protecting cryptographic keys against exploits like OpenSSL&#39;s Heartbleed bug or protecting a language runtime from native libraries written in unsafe languages. When runtime references across isolation boundaries occur relatively infrequently, then page-based hardware isolation can be used, because the cost of kernel- or hypervisor-mediated domain switching is tolerable. However, some applications, such as the isolation of cryptographic session keys in network-facing services, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisor-mediated domain switching is prohibitive. &lt;br&gt;&lt;br&gt;In this paper, we present ERIM, a novel technique that provides hardware-enforced isolation with low overhead on x86 CPUs, even at high switching rates (ERIM&#39;s measured overhead is less than 1% for 100,000 switches per second). The key idea is to combine protection keys (MPKs), a feature recently added to x86 that allows protection domain switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little effort to new and existing applications, doesn&#39;t require compiler changes, can run on a stock Linux kernel, and has low runtime overhead even at high domain switching rates. ">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
@@ -133,28 +117,12 @@ runtime overhead even at high domain switching rates">
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
   <meta property="og:url" content="https://vahldiek.github.io/publication/vahldiek-2018-erim/">
   <meta property="og:title" content="ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="Isolating sensitive data and state can increase the security
-and robustness of many applications. Examples include protecting cryptographic keys against exploits like OpenSSL’s
-Heartbleed bug or protecting a language runtime from native libraries written in unsafe languages. When runtime
-references across isolation boundaries occur relatively infrequently, then page-based hardware isolation can be used,
-because the cost of kernel- or hypervisor-mediated domain
-switching is tolerable. However, some applications, such as
-isolating cryptographic session keys in a network-facing application or isolating frequently invoked native libraries in
-managed runtimes, require very frequent domain switching.
-In such applications, the overhead of kernel- or hypervisormediated domain switching is prohibitive.
-In this paper, we present ERIM, a novel technique that
-provides hardware-enforced isolation with low overhead,
-even at high switching rates (ERIM’s average overhead is
-less than 1% for 100,000 switches per second). The key idea
-is to combine memory protection keys (MPKs), a feature recently added to Intel CPUs that allows protection domain
-switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little
-effort to new and existing applications, doesn’t require compiler changes, can run on a stock Linux kernel, and has low
-runtime overhead even at high domain switching rates"><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:description" content="Isolating sensitive data and state can increase the security and robustness of many applications. Examples include protecting cryptographic keys against exploits like OpenSSL&#39;s Heartbleed bug or protecting a language runtime from native libraries written in unsafe languages. When runtime references across isolation boundaries occur relatively infrequently, then page-based hardware isolation can be used, because the cost of kernel- or hypervisor-mediated domain switching is tolerable. However, some applications, such as the isolation of cryptographic session keys in network-facing services, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisor-mediated domain switching is prohibitive. &lt;br&gt;&lt;br&gt;In this paper, we present ERIM, a novel technique that provides hardware-enforced isolation with low overhead on x86 CPUs, even at high switching rates (ERIM&#39;s measured overhead is less than 1% for 100,000 switches per second). The key idea is to combine protection keys (MPKs), a feature recently added to x86 that allows protection domain switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little effort to new and existing applications, doesn&#39;t require compiler changes, can run on a stock Linux kernel, and has low runtime overhead even at high domain switching rates. "><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-01-01T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2019-01-14T00:00:00-08:00">
   
-  <meta property="article:modified_time" content="2019-02-19T12:17:33&#43;01:00">
+  <meta property="article:modified_time" content="2019-05-11T20:45:37-07:00">
   
 
   
@@ -397,6 +365,9 @@ runtime overhead even at high domain switching rates"><meta property="og:image" 
       <span itemprop="name">Nuno O. Duarte</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Michael Sammler</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Peter Druschel</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
@@ -410,9 +381,9 @@ runtime overhead even at high domain switching rates"><meta property="og:image" 
     
         Last updated on
     
-    <meta content="2018-01-01 00:00:00 &#43;0100 CET" itemprop="datePublished">
-    <time datetime="2019-02-19 12:17:33 &#43;0100 CET" itemprop="dateModified">
-      Feb 19, 2019
+    <meta content="2019-01-14 00:00:00 -0800 PST" itemprop="datePublished">
+    <time datetime="2019-05-11 20:45:37 -0700 PDT" itemprop="dateModified">
+      May 11, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -467,7 +438,7 @@ runtime overhead even at high domain switching rates"><meta property="og:image" 
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/1801.06822" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -479,6 +450,14 @@ runtime overhead even at high domain switching rates"><meta property="og:image" 
 </button>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
+  Code
+</a>
+
 
 
 
@@ -490,10 +469,42 @@ runtime overhead even at high domain switching rates"><meta property="og:image" 
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/#" target="_blank" rel="noopener">
+  Video
+</a>
 
 
 
 
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1801.06822" target="_blank" rel="noopener">
+    
+    Pre-print
+  </a>
 
 
 </div>
@@ -508,23 +519,7 @@ runtime overhead even at high domain switching rates"><meta property="og:image" 
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Isolating sensitive data and state can increase the security
-and robustness of many applications. Examples include protecting cryptographic keys against exploits like OpenSSL’s
-Heartbleed bug or protecting a language runtime from native libraries written in unsafe languages. When runtime
-references across isolation boundaries occur relatively infrequently, then page-based hardware isolation can be used,
-because the cost of kernel- or hypervisor-mediated domain
-switching is tolerable. However, some applications, such as
-isolating cryptographic session keys in a network-facing application or isolating frequently invoked native libraries in
-managed runtimes, require very frequent domain switching.
-In such applications, the overhead of kernel- or hypervisormediated domain switching is prohibitive.
-In this paper, we present ERIM, a novel technique that
-provides hardware-enforced isolation with low overhead,
-even at high switching rates (ERIM’s average overhead is
-less than 1% for 100,000 switches per second). The key idea
-is to combine memory protection keys (MPKs), a feature recently added to Intel CPUs that allows protection domain
-switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little
-effort to new and existing applications, doesn’t require compiler changes, can run on a stock Linux kernel, and has low
-runtime overhead even at high domain switching rates</p>
+    <p class="pub-abstract" itemprop="text">Isolating sensitive data and state can increase the security and robustness of many applications. Examples include protecting cryptographic keys against exploits like OpenSSL&rsquo;s Heartbleed bug or protecting a language runtime from native libraries written in unsafe languages. When runtime references across isolation boundaries occur relatively infrequently, then page-based hardware isolation can be used, because the cost of kernel- or hypervisor-mediated domain switching is tolerable. However, some applications, such as the isolation of cryptographic session keys in network-facing services, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisor-mediated domain switching is prohibitive. <br><br>In this paper, we present ERIM, a novel technique that provides hardware-enforced isolation with low overhead on x86 CPUs, even at high switching rates (ERIM&rsquo;s measured overhead is less than 1% for 100,000 switches per second). The key idea is to combine protection keys (MPKs), a feature recently added to x86 that allows protection domain switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little effort to new and existing applications, doesn&rsquo;t require compiler changes, can run on a stock Linux kernel, and has low runtime overhead even at high domain switching rates.</p>
     
 
     
@@ -535,8 +530,8 @@ runtime overhead even at high domain switching rates</p>
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="/publication/#4">
-              Report
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -553,7 +548,7 @@ runtime overhead even at high domain switching rates</p>
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>arXiv preprint arXiv:1801.06822</em></div>
+          <div class="col-12 col-md-9"><em>Proceedings of USENIX Security Symposium</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -567,7 +562,7 @@ runtime overhead even at high domain switching rates</p>
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            January, 2018
+            January, 2019
           </div>
         </div>
       </div>
