@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Automatically Securing Linux Application Containers in Untrusted Clouds</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2020-lss/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2020-lss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2018-erim/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 -0800</pubDate>
