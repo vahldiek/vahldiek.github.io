@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Tutorial: Graphene: Confidential Computing for Unmodified Linux Applications</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Automatically Securing Linux Application Containers in Untrusted Clouds</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2020-lss/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0200</pubDate>

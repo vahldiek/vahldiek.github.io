@@ -30,5 +30,14 @@
       <description>Isolating sensitive data and state can increase the security and robustness of many applications. Applications, such as isolating cryptographic session keys in a network-facing application or isolating frequently invoked native libraries in managed runtimes, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisormediated domain switching is prohibitive. We suggest ERIM, a novel technique, that provides hardware-enforced isolation with low overhead, even at high switching rates (ERIM&amp;rsquo;s average overhead is less than 1% for 100,000 switches per second).</description>
     </item>
     
+    <item>
+      <title>Shielding Applications in an untrusted Cloud</title>
+      <link>https://vahldiek.github.io/project/graphene/</link>
+      <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/project/graphene/</guid>
+      <description>Computing on secret data is challenging with today’s cloud service provider (CSP) offerings. CSP have full visibility into their client’s workloads and data while run in a VM or container and shielding against other tenants. On the contrary, confidential computing (CC) techniques (e.g., Intel Software Guard Extension (SGX)) offer a reverse sandbox. These techniques shield the workload and data from accesses by the underlying system software (e.g., OS or VMM) and hardware attacks.</description>
+    </item>
+    
   </channel>
 </rss>

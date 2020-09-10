@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Tutorial: Graphene: Confidential Computing for Unmodified Linux Applications</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Automatically Securing Linux Application Containers in Untrusted Clouds</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2020-lss/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0200</pubDate>
@@ -55,6 +64,26 @@
       <guid>https://vahldiek.github.io/project/erim/</guid>
       <description>&lt;p&gt;Isolating sensitive data and state can increase the security and robustness of many applications. Applications, such as isolating cryptographic session keys in a network-facing application or isolating frequently invoked native libraries in managed runtimes, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisormediated domain switching is prohibitive.
 We suggest ERIM, a novel technique, that provides hardware-enforced isolation with low overhead, even at high switching rates (ERIM&amp;rsquo;s average overhead is less than 1% for 100,000 switches per second). The key idea is to combine memory protection keys (MPKs), a feature recently added to Intel CPUs that allows protection domain switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little effort to new and existing applications, doesn&amp;rsquo;t require compiler changes and can run on a stock Linux kernel.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shielding Applications in an untrusted Cloud</title>
+      <link>https://vahldiek.github.io/project/graphene/</link>
+      <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/project/graphene/</guid>
+      <description>&lt;p&gt;Computing on secret data is challenging with today’s cloud service provider
+(CSP) offerings. CSP have full visibility into their client’s workloads and data
+while run in a VM or container and shielding against other tenants. On the
+contrary, confidential computing (CC) techniques (e.g., Intel Software Guard
+Extension (SGX)) offer a reverse sandbox. These techniques shield the workload
+and data from accesses by the underlying system software (e.g., OS or VMM) and
+hardware attacks. Thus, preventing CSPs from accessing secrets. In addition, CC
+provides remote attestation to verify the integrity of applications.&lt;/p&gt;
+
+&lt;p&gt;Projects in this space focus on popular cloud deployment scenarios and automate
+the process to deploy applications in confidential compute enclaves.&lt;/p&gt;
 </description>
     </item>
     

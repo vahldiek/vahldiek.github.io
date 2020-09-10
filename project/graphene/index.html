@@ -15,11 +15,11 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="Lift and shift unmodified applications into Intel SGX enclaves to shield them in an untrusted cloud. ">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/project/graphene/">
 
   
 
@@ -100,7 +100,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="">
+  <link rel="canonical" href="https://vahldiek.github.io/project/graphene/">
 
   
   
@@ -115,12 +115,14 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="">
-  <meta property="og:title" content="404 Page not found | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/project/graphene/">
+  <meta property="og:title" content="Shielding Applications in an untrusted Cloud | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Lift and shift unmodified applications into Intel SGX enclaves to shield them in an untrusted cloud. "><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2018-12-15T00:24:42&#43;01:00">
   
+  <meta property="article:modified_time" content="2020-09-10T18:31:35&#43;02:00">
   
 
   
@@ -153,7 +155,7 @@
 
   
 
-  <title>404 Page not found | Anjo Vahldiek-Oberwagner</title>
+  <title>Shielding Applications in an untrusted Cloud | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -357,62 +359,280 @@
   </div>
 </nav>
 
-<div class="container">
 
-  <h1>Page not found</h1>
-  <p>Perhaps you were looking for one of these?</p>
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
-  
 
-  
-  
-  <h2>Publications</h2>
-  
-  <ul>
-    <li><a href="/publication/lee-2020-ppml/">Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/vahldiek-oberwagner-2020-secdev/">Tutorial: Graphene: Confidential Computing for Unmodified Linux Applications</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/vahldiek-2020-lss/">Automatically Securing Linux Application Containers in Untrusted Clouds</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/vahldiek-2018-erim/">ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/vahldiek-2018-thesis/">Techniques to Protect Confidentiality and Integrity of Persistent and In-Memory Data</a></li>
-  </ul>
-  
+
+
+
+
+
+
+
+
+
+
+
   
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Shielding Applications in an untrusted Cloud</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
 
   
   
-  <h2>Projects</h2>
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
   
-  <ul>
-    <li><a href="/project/guardat/">Protecting Persistent Data</a></li>
-  </ul>
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <meta content="2018-12-15 00:24:42 &#43;0100 STD" itemprop="datePublished">
+    <time datetime="2020-09-10 18:31:35 &#43;0200 DST" itemprop="dateModified">
+      Sep 10, 2020
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
   
-  <ul>
-    <li><a href="/project/erim/">Secure, Efficient In-Process Memory Isolation</a></li>
-  </ul>
+
   
-  <ul>
-    <li><a href="/project/graphene/">Shielding Applications in an untrusted Cloud</a></li>
-  </ul>
   
+
+  
+
+  
+  
+
   
 
 </div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>Computing on secret data is challenging with today’s cloud service provider
+(CSP) offerings. CSP have full visibility into their client’s workloads and data
+while run in a VM or container and shielding against other tenants. On the
+contrary, confidential computing (CC) techniques (e.g., Intel Software Guard
+Extension (SGX)) offer a reverse sandbox. These techniques shield the workload
+and data from accesses by the underlying system software (e.g., OS or VMM) and
+hardware attacks. Thus, preventing CSPs from accessing secrets. In addition, CC
+provides remote attestation to verify the integrity of applications.</p>
+
+<p>Projects in this space focus on popular cloud deployment scenarios and automate
+the process to deploy applications in confidential compute enclaves.</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/intel-sgx/">Intel SGX</a>
+  
+  <a class="badge badge-light" href="/tags/confidential-compute/">Confidential Compute</a>
+  
+</div>
+
+
+
+	
+
+    
+    
+
+    
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/vahldiek-oberwagner-2020-secdev/" itemprop="name">Tutorial: Graphene: Confidential Computing for Unmodified Linux Applications</a>
+  <div itemprop="author">
+    Anjo Vahldiek-Oberwagner, Chia-Che Tsai, Dmitrii Kuvaiskii, Don Porter</div>
+  <em>IEEE Secure Development Conference (SecDev)</em>,
+  2020.
+  <p>
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/vahldiek-oberwagner-2020-secdev/vahldiek-oberwagner-2020-secdev.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/vahldiek-2020-lss/" itemprop="name">Automatically Securing Linux Application Containers in Untrusted Clouds</a>
+  <div itemprop="author">
+    Anjo Vahldiek-Oberwagner, Dmitrii Kuvaiskii</div>
+  <em>Linux Security Summit 2020</em>,
+  2020.
+  <p>
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/vahldiek-2020-lss/vahldiek-2020-lss.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://static.sched.com/hosted_files/lssna2020/71/wo-narration-lss2020-shielding-containers-in-cloud.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+</p>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
 <div class="container">
   <footer class="site-footer">
   

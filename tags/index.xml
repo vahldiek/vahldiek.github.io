@@ -13,11 +13,29 @@
     
     
     <item>
+      <title>Confidential Compute</title>
+      <link>https://vahldiek.github.io/tags/confidential-compute/</link>
+      <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/confidential-compute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Intel MPK</title>
       <link>https://vahldiek.github.io/tags/intel-mpk/</link>
       <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
       
       <guid>https://vahldiek.github.io/tags/intel-mpk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intel SGX</title>
+      <link>https://vahldiek.github.io/tags/intel-sgx/</link>
+      <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/intel-sgx/</guid>
       <description></description>
     </item>
     
