@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 14 Jan 2019 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jan 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2018-erim/</link>
-      <pubDate>Mon, 14 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2018-erim/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Pesos: Policy Enhanced Secure Object store</title>
       <link>https://vahldiek.github.io/publication/krahn-2018/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
       
       <guid>https://vahldiek.github.io/publication/krahn-2018/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Light-Weight Contexts: An OS Abstraction for Safety and Performance</title>
       <link>https://vahldiek.github.io/publication/litton-2016/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0200</pubDate>
       
       <guid>https://vahldiek.github.io/publication/litton-2016/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Thoth : Comprehensive Policy Compliance in Data Retrieval Systems</title>
       <link>https://vahldiek.github.io/publication/elnikety-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
       
       <guid>https://vahldiek.github.io/publication/elnikety-2016/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Guardat: Enforcing data policies at the storage layer</title>
       <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</link>
-      <pubDate>Fri, 17 Apr 2015 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0200</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>A verifiedwireless safety critical hard real-time design</title>
       <link>https://vahldiek.github.io/publication/graf-2011-verifiedwireless/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
       
       <guid>https://vahldiek.github.io/publication/graf-2011-verifiedwireless/</guid>
       <description></description>

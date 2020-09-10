@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -17,11 +15,11 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="We present a practical framework to deploy privacy-preserving machine learning (PPML) applications in untrusted clouds based on a trusted execution environment (TEE). Specifically, we shield unmodified PyTorch ML applications by running them in Intel SGX enclaves with encrypted model parameters and encrypted input data to protect the confidentiality and integrity of these secrets at rest and during runtime. We use the open-source Graphene library OS with transparent file encryption and SGX-based remote attestation to minimize porting effort and seamlessly provide file protection and attestation. Our approach is completely transparent to the machine learning application: the developer and the end-user do not need to modify the ML application in any way.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication_types/4/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/lee-2020-ppml/">
 
   
 
@@ -94,15 +92,15 @@
   
 
   
-  <link rel="alternate" href="https://vahldiek.github.io/publication_types/4/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
-  <link rel="feed" href="https://vahldiek.github.io/publication_types/4/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="alternate" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="feed" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/publication_types/4/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/lee-2020-ppml/">
 
   
   
@@ -117,12 +115,14 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/publication_types/4/">
-  <meta property="og:title" content="4 | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/lee-2020-ppml/">
+  <meta property="og:title" content="Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="We present a practical framework to deploy privacy-preserving machine learning (PPML) applications in untrusted clouds based on a trusted execution environment (TEE). Specifically, we shield unmodified PyTorch ML applications by running them in Intel SGX enclaves with encrypted model parameters and encrypted input data to protect the confidentiality and integrity of these secrets at rest and during runtime. We use the open-source Graphene library OS with transparent file encryption and SGX-based remote attestation to minimize porting effort and seamlessly provide file protection and attestation. Our approach is completely transparent to the machine learning application: the developer and the end-user do not need to modify the ML application in any way."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2020-09-10T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2020-09-10T00:00:00&#43;02:00">
+  
+  <meta property="article:modified_time" content="2020-09-10T00:00:00&#43;02:00">
   
 
   
@@ -155,7 +155,7 @@
 
   
 
-  <title>4 | Anjo Vahldiek-Oberwagner</title>
+  <title>Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -359,8 +359,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -377,55 +378,199 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Dayeol Lee</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Dmitrii Kuvaiskii</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Mona Vij</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2020-09-10 00:00:00 &#43;0200 DST" itemprop="datePublished">
+    <time datetime="2020-09-10 00:00:00 &#43;0200 DST" itemprop="dateModified">
+      Sep 10, 2020
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">4</h1>
 
-  
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2009.04390.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/lee-2020-ppml/vahldiek-2011.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/publication/lee-2020-ppml/">Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple</a></h2>
-    <div class="article-style">
-      
-      We present a practical framework to deploy privacy-preserving machine learning (PPML) applications in untrusted clouds based on a trusted execution environment (TEE). Specifically, we shield unmodified PyTorch ML applications by running them in Intel …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/vahldiek-2018-thesis/">Techniques to Protect Confidentiality and Integrity of Persistent and In-Memory Data</a></h2>
-    <div class="article-style">
-      
-      Today computers store and analyze valuable and sensitive data. As a result we need to protect this data against confidentiality and integrity violations that can result in the illicit release, loss, or modification of a user’s and an organization’s …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/vahldiek-2011/">Protecting Data Integrity with Storage Leases</a></h2>
-    <div class="article-style">
-      
-      We present a storage primitive called a storage lease. Data stored under a lease cannot be written for a pre-determined period. During the lease period, online data is protected from corruption due to security breaches, software errors, or accidental …
-      
-    </div>
-  </div>
-  
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">We present a practical framework to deploy privacy-preserving machine learning (PPML) applications in untrusted clouds based on a trusted execution environment (TEE). Specifically, we shield unmodified PyTorch ML applications by running them in Intel SGX enclaves with encrypted model parameters and encrypted input data to protect the confidentiality and integrity of these secrets at rest and during runtime. We use the open-source Graphene library OS with transparent file encryption and SGX-based remote attestation to minimize porting effort and seamlessly provide file protection and attestation. Our approach is completely transparent to the machine learning application: the developer and the end-user do not need to modify the ML application in any way.</p>
+    
 
-  
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#4">
+              Report
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>arXiv</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            September, 2020
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
 </div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
@@ -536,6 +681,4 @@
 
   </body>
 </html>
-
-
 
