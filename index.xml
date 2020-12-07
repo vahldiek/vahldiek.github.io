@@ -69,10 +69,10 @@ We suggest ERIM, a novel technique, that provides hardware-enforced isolation wi
     
     <item>
       <title>Shielding Applications in an untrusted Cloud</title>
-      <link>https://vahldiek.github.io/project/graphene/</link>
+      <link>https://vahldiek.github.io/project/untrusted-cloud/</link>
       <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
       
-      <guid>https://vahldiek.github.io/project/graphene/</guid>
+      <guid>https://vahldiek.github.io/project/untrusted-cloud/</guid>
       <description>&lt;p&gt;Computing on secret data is challenging with today’s cloud service provider
 (CSP) offerings. CSP have full visibility into their client’s workloads and data
 while run in a VM or container and shielding against other tenants. On the
