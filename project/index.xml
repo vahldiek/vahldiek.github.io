@@ -32,10 +32,10 @@
     
     <item>
       <title>Shielding Applications in an untrusted Cloud</title>
-      <link>https://vahldiek.github.io/project/untrusted-cloud/</link>
+      <link>https://vahldiek.github.io/project/untrustedcloud/</link>
       <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
       
-      <guid>https://vahldiek.github.io/project/untrusted-cloud/</guid>
+      <guid>https://vahldiek.github.io/project/untrustedcloud/</guid>
       <description>Computing on secret data is challenging with today’s cloud service provider (CSP) offerings. CSP have full visibility into their client’s workloads and data while run in a VM or container and shielding against other tenants. On the contrary, confidential computing (CC) techniques (e.g., Intel Software Guard Extension (SGX)) offer a reverse sandbox. These techniques shield the workload and data from accesses by the underlying system software (e.g., OS or VMM) and hardware attacks.</description>
     </item>
     
