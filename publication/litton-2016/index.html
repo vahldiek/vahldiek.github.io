@@ -120,7 +120,7 @@
   <meta property="og:description" content="We introduce a new OS abstraction—light-weight con- texts (lwCs)—that provides independent units of protec- tion, privilege, and execution state within a process. A process may include several lwCs, each with possibly different views of memory, file descriptors, and access capabilities. lwCs can be used to efficiently implement roll-back (process can return to a prior recorded state), isolated address spaces (lwCs within the process may have different views of memory, e.g., isolating sensitive data from network-facing components or isolating differ- ent user sessions), and privilege separation (in-process reference monitors can arbitrate and control access). lwCs can be implemented efficiently: the overhead of a lwC is proportional to the amount of memory exclu- sive to the lwC; switching lwCs is quicker than switching kernel threads within the same process. We describe the lwC abstraction and API, and an implementation of lwCs within the FreeBSD 11.0 kernel. Finally, we present an evaluation of common usage patterns, including fast roll- back, session isolation, sensitive data isolation, and in- process reference monitoring, using Apache, nginx, PHP, and OpenSSL."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-10-01T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2016-10-01T00:00:00-07:00">
   
   <meta property="article:modified_time" content="2020-07-05T12:13:17-07:00">
   
@@ -419,8 +419,8 @@
     
         Last updated on
     
-    <meta content="2016-10-01 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-    <time datetime="2020-07-05 12:13:17 -0700 -0700" itemprop="dateModified">
+    <meta content="2016-10-01 00:00:00 -0700 PDT" itemprop="datePublished">
+    <time datetime="2020-07-05 12:13:17 -0700 PDT" itemprop="dateModified">
       Jul 5, 2020
     </time>
   </span>

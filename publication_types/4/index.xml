@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple</title>
       <link>https://vahldiek.github.io/publication/lee-2020-ppml/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 -0700</pubDate>
       
       <guid>https://vahldiek.github.io/publication/lee-2020-ppml/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Techniques to Protect Confidentiality and Integrity of Persistent and In-Memory Data</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Protecting Data Integrity with Storage Leases</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2011/</link>
-      <pubDate>Mon, 01 Aug 2011 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 -0700</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2011/</guid>
       <description></description>

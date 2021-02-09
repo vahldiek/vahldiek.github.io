@@ -120,7 +120,7 @@
   <meta property="og:description" content="Isolating sensitive data and state can increase the security and robustness of many applications. Examples include protecting cryptographic keys against exploits like OpenSSL&#39;s Heartbleed bug or protecting a language runtime from native libraries written in unsafe languages. When runtime references across isolation boundaries occur relatively infrequently, then page-based hardware isolation can be used, because the cost of kernel- or hypervisor-mediated domain switching is tolerable. However, some applications, such as the isolation of cryptographic session keys in network-facing services, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisor-mediated domain switching is prohibitive. &lt;br&gt;&lt;br&gt;In this paper, we present ERIM, a novel technique that provides hardware-enforced isolation with low overhead on x86 CPUs, even at high switching rates (ERIM&#39;s measured overhead is less than 1% for 100,000 switches per second). The key idea is to combine protection keys (MPKs), a feature recently added to x86 that allows protection domain switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little effort to new and existing applications, doesn&#39;t require compiler changes, can run on a stock Linux kernel, and has low runtime overhead even at high domain switching rates. "><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-01-14T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2019-01-14T00:00:00-08:00">
   
   <meta property="article:modified_time" content="2020-09-10T19:32:47&#43;02:00">
   
@@ -419,8 +419,8 @@
     
         Last updated on
     
-    <meta content="2019-01-14 00:00:00 &#43;0100 CET" itemprop="datePublished">
-    <time datetime="2020-09-10 19:32:47 &#43;0200 CEST" itemprop="dateModified">
+    <meta content="2019-01-14 00:00:00 -0800 PST" itemprop="datePublished">
+    <time datetime="2020-09-10 19:32:47 &#43;0200 &#43;0200" itemprop="dateModified">
       Sep 10, 2020
     </time>
   </span>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Tutorial: Graphene: Confidential Computing for Unmodified Linux Applications</title>
       <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 -0700</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Automatically Securing Linux Application Containers in Untrusted Clouds</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2020-lss/</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 -0700</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2020-lss/</guid>
       <description></description>
