@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Swivel: Hardening WebAssembly against Spectre</title>
+      <link>https://vahldiek.github.io/publication/narayan-2021/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/narayan-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple</title>
       <link>https://vahldiek.github.io/publication/lee-2020-ppml/</link>
       <pubDate>Thu, 10 Sep 2020 00:00:00 -0700</pubDate>

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 14 Jan 2019 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Swivel: Hardening WebAssembly against Spectre</title>
+      <link>https://vahldiek.github.io/publication/narayan-2021/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/narayan-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</title>

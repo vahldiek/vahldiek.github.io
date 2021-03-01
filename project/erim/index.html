@@ -450,8 +450,22 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Isolating sensitive data and state can increase the security and robustness of many applications. Applications, such as isolating cryptographic session keys in a network-facing application or isolating frequently invoked native libraries in managed runtimes, require very frequent domain switching. In such applications, the overhead of kernel- or hypervisormediated domain switching is prohibitive.
-We suggest ERIM, a novel technique, that provides hardware-enforced isolation with low overhead, even at high switching rates (ERIM&rsquo;s average overhead is less than 1% for 100,000 switches per second). The key idea is to combine memory protection keys (MPKs), a feature recently added to Intel CPUs that allows protection domain switches in userspace, with binary inspection to prevent circumvention. We show that ERIM can be applied with little effort to new and existing applications, doesn&rsquo;t require compiler changes and can run on a stock Linux kernel.</p>
+      <p>Isolating sensitive data and state can increase the security and robustness of
+many applications. Applications, such as isolating cryptographic session keys in
+a network-facing application or isolating frequently invoked native libraries in
+managed runtimes, require very frequent domain switching. In such applications,
+the overhead of kernel- or hypervisormediated domain switching is prohibitive.
+We suggest LwCs and ERIM to overcome these costs using novel kernel
+functionality and hardware-support (e.g., Intel MPK), respectively.</p>
+
+<p>Wasm has become a popular lightweight, in-process sandbox and is, for example,
+used in production to isolate different clients on edge clouds and
+function-as-a-service platforms. Unfortunately, Spectre attacks can bypass
+Wasm’s isolation guarantees. Swivel hardens Wasm against this class of attacks
+by ensuring that potentially malicious code can neither use Spectre attacks to
+break out of the Wasm sandbox nor coerce victim code—another Wasm client or the
+embedding process—to leak secret data. We suggest Swivel, a new compiler
+framework for hardening WebAssembly (Wasm) against Spectre attacks.</p>
 
     </div>
 
@@ -483,6 +497,60 @@ We suggest ERIM, a novel technique, that provides hardware-enforced isolation wi
       
       
         <h2>Publications</h2>
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/narayan-2021/" itemprop="name">Swivel: Hardening WebAssembly against Spectre</a>
+  <div itemprop="author">
+    Shravan Narayan, Craig Disselkoen, Daniel Moghimi, Sunjay Cauligi, Evan Johnson, Zhao Gang, Anjo Vahldiek-Oberwagner, Ravi Sahita, Hovav Shacham, Dean Tullsen, Deian Stefan</div>
+  USENIX Security,
+  2021.
+  <p>
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://cseweb.ucsd.edu/~dstefan/pubs/narayan:2021:swivel.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/narayan-2021/narayan-2021.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
         
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
