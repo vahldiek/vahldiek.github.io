@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Breaking with traditional OS Abstractions</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Swivel: Hardening WebAssembly against Spectre</title>
       <link>https://vahldiek.github.io/publication/narayan-2021/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
