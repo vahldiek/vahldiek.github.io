@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Endokernel: Fast, Secure, and Programmable Subprocess Virtualization</title>
+      <link>https://vahldiek.github.io/publication/im-2021-endokernel/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/im-2021-endokernel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple</title>

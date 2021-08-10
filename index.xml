@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Endokernel: Fast, Secure, and Programmable Subprocess Virtualization</title>
+      <link>https://vahldiek.github.io/publication/im-2021-endokernel/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/im-2021-endokernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Breaking with traditional OS Abstractions</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
@@ -161,15 +170,6 @@ the process to deploy applications in confidential compute enclaves.&lt;/p&gt;
       <pubDate>Fri, 17 Apr 2015 00:00:00 -0700</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protecting Data Integrity with Storage Leases</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-2011/</link>
-      <pubDate>Mon, 01 Aug 2011 00:00:00 -0700</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-2011/</guid>
       <description></description>
     </item>
     

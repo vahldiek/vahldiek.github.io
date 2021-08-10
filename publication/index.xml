@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>The Endokernel: Fast, Secure, and Programmable Subprocess Virtualization</title>
+      <link>https://vahldiek.github.io/publication/im-2021-endokernel/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/im-2021-endokernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Breaking with traditional OS Abstractions</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
