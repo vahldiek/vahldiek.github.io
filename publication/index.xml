@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>TECHNOLOGY TO CONTROL SYSTEM CALL INVOCATIONS WITHIN A SINGLE ADDRESS SPACE</title>
+      <link>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Endokernel: Fast, Secure, and Programmable Subprocess Virtualization</title>
       <link>https://vahldiek.github.io/publication/im-2021-endokernel/</link>
       <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
@@ -27,6 +36,33 @@
       <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isolating memory within trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/sahita-2021-isomempat/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/sahita-2021-isomempat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isolating memory within trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reducing latency of hardware trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</guid>
       <description></description>
     </item>
     
@@ -108,6 +144,15 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
       
       <guid>https://vahldiek.github.io/publication/elnikety-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting Data Integrity with Storage Leases</title>
+      <link>https://vahldiek.github.io/publication/druschel-2015-storagelease/</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/druschel-2015-storagelease/</guid>
       <description></description>
     </item>
     
