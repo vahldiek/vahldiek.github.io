@@ -49,20 +49,20 @@
     </item>
     
     <item>
-      <title>Isolating memory within trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Reducing latency of hardware trusted execution environments</title>
       <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalabe attestation for trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</guid>
       <description></description>
     </item>
     
