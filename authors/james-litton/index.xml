@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James Litton on Anjo Vahldiek-Oberwagner</title>
+    <link>https://vahldiek.github.io/authors/james-litton/</link>
+    <description>Recent content in James Litton on Anjo Vahldiek-Oberwagner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 01 Oct 2016 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://vahldiek.github.io/authors/james-litton/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Light-Weight Contexts: An OS Abstraction for Safety and Performance</title>
+      <link>https://vahldiek.github.io/publication/litton-2016/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/litton-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anjo Lucas Vahldiek-Oberwagner on Anjo Vahldiek-Oberwagner</title>
+    <link>https://vahldiek.github.io/authors/anjo-lucas-vahldiek-oberwagner/</link>
+    <description>Recent content in Anjo Lucas Vahldiek-Oberwagner on Anjo Vahldiek-Oberwagner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://vahldiek.github.io/authors/anjo-lucas-vahldiek-oberwagner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Techniques to Protect Confidentiality and Integrity of Persistent and In-Memory Data</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

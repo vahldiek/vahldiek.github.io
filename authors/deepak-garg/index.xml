@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepak Garg on Anjo Vahldiek-Oberwagner</title>
+    <link>https://vahldiek.github.io/authors/deepak-garg/</link>
+    <description>Recent content in Deepak Garg on Anjo Vahldiek-Oberwagner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://vahldiek.github.io/authors/deepak-garg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2018-erim/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2018-erim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Light-Weight Contexts: An OS Abstraction for Safety and Performance</title>
+      <link>https://vahldiek.github.io/publication/litton-2016/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/litton-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thoth : Comprehensive Policy Compliance in Data Retrieval Systems</title>
+      <link>https://vahldiek.github.io/publication/elnikety-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/elnikety-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guardat: Enforcing data policies at the storage layer</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

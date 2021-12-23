@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rodrigo Rodrigues on Anjo Vahldiek-Oberwagner</title>
+    <link>https://vahldiek.github.io/authors/rodrigo-rodrigues/</link>
+    <description>Recent content in Rodrigo Rodrigues on Anjo Vahldiek-Oberwagner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 17 Apr 2015 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://vahldiek.github.io/authors/rodrigo-rodrigues/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guardat: Enforcing data policies at the storage layer</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting Data Integrity with Storage Leases</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2011/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

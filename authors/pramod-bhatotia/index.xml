@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pramod Bhatotia on Anjo Vahldiek-Oberwagner</title>
+    <link>https://vahldiek.github.io/authors/pramod-bhatotia/</link>
+    <description>Recent content in Pramod Bhatotia on Anjo Vahldiek-Oberwagner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://vahldiek.github.io/authors/pramod-bhatotia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pesos: Policy Enhanced Secure Object store</title>
+      <link>https://vahldiek.github.io/publication/krahn-2018/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/krahn-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
