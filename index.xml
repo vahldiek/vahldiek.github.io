@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>TECHNOLOGY TO CONTROL SYSTEM CALL INVOCATIONS WITHIN A SINGLE ADDRESS SPACE</title>
       <link>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>The Endokernel: Fast, Secure, and Programmable Subprocess Virtualization</title>
       <link>https://vahldiek.github.io/publication/im-2021-endokernel/</link>
-      <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/im-2021-endokernel/</guid>
       <description></description>
@@ -31,7 +31,7 @@
     <item>
       <title>Breaking with traditional OS Abstractions</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</guid>
       <description></description>
@@ -40,7 +40,7 @@
     <item>
       <title>Isolating memory within trusted execution environments</title>
       <link>https://vahldiek.github.io/publication/sahita-2021-isomempat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/sahita-2021-isomempat/</guid>
       <description></description>
@@ -49,7 +49,7 @@
     <item>
       <title>Reducing latency of hardware trusted execution environments</title>
       <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</guid>
       <description></description>
@@ -58,7 +58,7 @@
     <item>
       <title>Scalabe attestation for trusted execution environments</title>
       <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</guid>
       <description></description>
@@ -67,7 +67,7 @@
     <item>
       <title>Swivel: Hardening WebAssembly against Spectre</title>
       <link>https://vahldiek.github.io/publication/narayan-2021/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/narayan-2021/</guid>
       <description></description>
@@ -76,7 +76,7 @@
     <item>
       <title>Privacy-Preserving Machine Learning in Untrusted Clouds Made Simple</title>
       <link>https://vahldiek.github.io/publication/lee-2020-ppml/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/lee-2020-ppml/</guid>
       <description></description>
@@ -85,7 +85,7 @@
     <item>
       <title>Tutorial: Graphene: Confidential Computing for Unmodified Linux Applications</title>
       <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</guid>
       <description></description>
@@ -94,7 +94,7 @@
     <item>
       <title>Automatically Securing Linux Application Containers in Untrusted Clouds</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2020-lss/</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2020-lss/</guid>
       <description></description>
@@ -103,7 +103,7 @@
     <item>
       <title>ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2018-erim/</link>
-      <pubDate>Mon, 14 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2018-erim/</guid>
       <description></description>
@@ -167,7 +167,7 @@ the process to deploy applications in confidential compute enclaves.&lt;/p&gt;
     <item>
       <title>Techniques to Protect Confidentiality and Integrity of Persistent and In-Memory Data</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</guid>
       <description></description>
