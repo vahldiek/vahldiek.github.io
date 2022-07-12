@@ -7,46 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2015 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/8/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>TECHNOLOGY TO CONTROL SYSTEM CALL INVOCATIONS WITHIN A SINGLE ADDRESS SPACE</title>
-      <link>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Isolating memory within trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/sahita-2021-isomempat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/sahita-2021-isomempat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reducing latency of hardware trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scalabe attestation for trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Protecting Data Integrity with Storage Leases</title>

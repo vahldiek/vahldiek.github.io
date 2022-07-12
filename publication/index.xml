@@ -13,6 +13,42 @@
     
     
     <item>
+      <title>CRYPTOGRAPHIC COMPUTING INCLUDING ENHANCED CRYPTOGRAPHIC ADDRESSES</title>
+      <link>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expanding the Scope of Artifact Evaluation at HPC Conferences: Experience of SC21</title>
+      <link>https://vahldiek.github.io/publication/malik-2022-aehpc/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/malik-2022-aehpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing deployment and security of microservices</title>
+      <link>https://vahldiek.github.io/publication/saxena-2022-optuserv/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/saxena-2022-optuserv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATTESTATION OF OPERATIONS BY TOOL CHAINS</title>
+      <link>https://vahldiek.github.io/publication/scarlata-2022-atttool/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/scarlata-2022-atttool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>TECHNOLOGY TO CONTROL SYSTEM CALL INVOCATIONS WITHIN A SINGLE ADDRESS SPACE</title>
       <link>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>

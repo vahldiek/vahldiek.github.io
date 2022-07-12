@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>9 on Anjo Vahldiek-Oberwagner</title>
+    <link>https://vahldiek.github.io/publication_types/9/</link>
+    <description>Recent content in 9 on Anjo Vahldiek-Oberwagner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vahldiek.github.io/publication_types/9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CRYPTOGRAPHIC COMPUTING INCLUDING ENHANCED CRYPTOGRAPHIC ADDRESSES</title>
+      <link>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing deployment and security of microservices</title>
+      <link>https://vahldiek.github.io/publication/saxena-2022-optuserv/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/saxena-2022-optuserv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATTESTATION OF OPERATIONS BY TOOL CHAINS</title>
+      <link>https://vahldiek.github.io/publication/scarlata-2022-atttool/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/scarlata-2022-atttool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TECHNOLOGY TO CONTROL SYSTEM CALL INVOCATIONS WITHIN A SINGLE ADDRESS SPACE</title>
+      <link>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isolating memory within trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/sahita-2021-isomempat/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/sahita-2021-isomempat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reducing latency of hardware trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalabe attestation for trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

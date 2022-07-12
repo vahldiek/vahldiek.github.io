@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Expanding the Scope of Artifact Evaluation at HPC Conferences: Experience of SC21</title>
+      <link>https://vahldiek.github.io/publication/malik-2022-aehpc/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/malik-2022-aehpc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Swivel: Hardening WebAssembly against Spectre</title>

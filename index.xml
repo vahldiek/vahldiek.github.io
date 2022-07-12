@@ -11,6 +11,71 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Research Artifacts and Evaluation</title>
+      <link>https://vahldiek.github.io/project/artifact-eval/</link>
+      <pubDate>Tue, 05 Jul 2022 00:24:42 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/project/artifact-eval/</guid>
+      <description>&lt;p&gt;A scientific paper consists of a constellation of artifacts that extend beyond
+the document itself: software, hardware, evaluation data and documentation, raw
+survey results, mechanized proofs, models, test suites, benchmarks, and so on.
+In some cases, the quality of these artifacts is as important as that of the
+document itself.&lt;/p&gt;
+
+&lt;p&gt;My involvement in artifact evaluation efforts in the systems, security and HPC
+communities have led to a growing understanding of building reusable and
+reproducible artifacts. We continuously work on the process to lower the burden
+on the authors and ease the reproduction of results for evaluators.&lt;/p&gt;
+
+&lt;p&gt;Involvement in past Artifact Evaluation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;USENIX Security&amp;rsquo;23 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://2022.eurosys.org/committees/organization-committee/&#34; target=&#34;_blank&#34;&gt;EuroSys&amp;rsquo;22 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sc21.supercomputing.org/program/awards/sc-best-reproducibility-advancement-award/&#34; target=&#34;_blank&#34;&gt;SC&amp;rsquo;21 Best Reproducibility Advancement Award o-chair&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sc21.supercomputing.org/submit/reproducibility-initiative/&#34; target=&#34;_blank&#34;&gt;SC&amp;rsquo;21 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/conference/osdi20/call-for-artifacts&#34; target=&#34;_blank&#34;&gt;OSDI&amp;rsquo;20 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CRYPTOGRAPHIC COMPUTING INCLUDING ENHANCED CRYPTOGRAPHIC ADDRESSES</title>
+      <link>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expanding the Scope of Artifact Evaluation at HPC Conferences: Experience of SC21</title>
+      <link>https://vahldiek.github.io/publication/malik-2022-aehpc/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/malik-2022-aehpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing deployment and security of microservices</title>
+      <link>https://vahldiek.github.io/publication/saxena-2022-optuserv/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/saxena-2022-optuserv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATTESTATION OF OPERATIONS BY TOOL CHAINS</title>
+      <link>https://vahldiek.github.io/publication/scarlata-2022-atttool/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/scarlata-2022-atttool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>TECHNOLOGY TO CONTROL SYSTEM CALL INVOCATIONS WITHIN A SINGLE ADDRESS SPACE</title>
       <link>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
@@ -97,79 +162,6 @@
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2020-lss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-2018-erim/</link>
-      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-2018-erim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protecting Persistent Data</title>
-      <link>https://vahldiek.github.io/project/guardat/</link>
-      <pubDate>Sat, 15 Dec 2018 00:24:47 +0100</pubDate>
-      
-      <guid>https://vahldiek.github.io/project/guardat/</guid>
-      <description>&lt;p&gt;In today’s systems, policies protecting stored data and mechanisms for their enforcement are spread across many software components, increasing the risk of violation due to bugs, vulnerabilities and misconfigurations. We suggest Guardat to addresses this problem. Users, developers and administrators specify file protection policies declaratively, concisely and separate from code, and Guardat enforces these policies by mediating I/O in the storage layer. Thus, policy enforcement relies only on the integrity of the Guardat controller and any external policy dependencies. The semantic gap between the storage layer enforcement and per-file policies is bridged using cryptographic attestations from Guardat. We show experimentally that the overhead is low.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Secure, Efficient In-Process Memory Isolation</title>
-      <link>https://vahldiek.github.io/project/erim/</link>
-      <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
-      
-      <guid>https://vahldiek.github.io/project/erim/</guid>
-      <description>&lt;p&gt;Isolating sensitive data and state can increase the security and robustness of
-many applications. Applications, such as isolating cryptographic session keys in
-a network-facing application or isolating frequently invoked native libraries in
-managed runtimes, require very frequent domain switching. In such applications,
-the overhead of kernel- or hypervisormediated domain switching is prohibitive.
-We suggest LwCs and ERIM to overcome these costs using novel kernel
-functionality and hardware-support (e.g., Intel MPK), respectively.&lt;/p&gt;
-
-&lt;p&gt;Wasm has become a popular lightweight, in-process sandbox and is, for example,
-used in production to isolate different clients on edge clouds and
-function-as-a-service platforms. Unfortunately, Spectre attacks can bypass
-Wasm’s isolation guarantees. Swivel hardens Wasm against this class of attacks
-by ensuring that potentially malicious code can neither use Spectre attacks to
-break out of the Wasm sandbox nor coerce victim code—another Wasm client or the
-embedding process—to leak secret data. We suggest Swivel, a new compiler
-framework for hardening WebAssembly (Wasm) against Spectre attacks.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Shielding Applications in an untrusted Cloud</title>
-      <link>https://vahldiek.github.io/project/untrustedcloud/</link>
-      <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
-      
-      <guid>https://vahldiek.github.io/project/untrustedcloud/</guid>
-      <description>&lt;p&gt;Computing on secret data is challenging with today’s cloud service provider
-(CSP) offerings. CSP have full visibility into their client’s workloads and data
-while run in a VM or container and shielding against other tenants. On the
-contrary, confidential computing (CC) techniques (e.g., Intel Software Guard
-Extension (SGX)) offer a reverse sandbox. These techniques shield the workload
-and data from accesses by the underlying system software (e.g., OS or VMM) and
-hardware attacks. Thus, preventing CSPs from accessing secrets. In addition, CC
-provides remote attestation to verify the integrity of applications.&lt;/p&gt;
-
-&lt;p&gt;Projects in this space focus on popular cloud deployment scenarios and automate
-the process to deploy applications in confidential compute enclaves.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Techniques to Protect Confidentiality and Integrity of Persistent and In-Memory Data</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</guid>
       <description></description>
     </item>
     
