@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>The case for a Memory-Safe Hardware and Software Architecture for Serverless Computing</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2022-words/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2022-words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing</title>
       <link>https://vahldiek.github.io/publication/lee-2022/</link>
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
