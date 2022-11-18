@@ -69,9 +69,27 @@
     <item>
       <title>memory isolation</title>
       <link>https://vahldiek.github.io/tags/memory-isolation/</link>
-      <pubDate>Sat, 15 Dec 2018 00:24:42 +0100</pubDate>
+      <pubDate>Tue, 15 Nov 2022 00:24:42 +0100</pubDate>
       
       <guid>https://vahldiek.github.io/tags/memory-isolation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memory-safe langauges</title>
+      <link>https://vahldiek.github.io/tags/memory-safe-langauges/</link>
+      <pubDate>Tue, 15 Nov 2022 00:24:42 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/memory-safe-langauges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microservices</title>
+      <link>https://vahldiek.github.io/tags/microservices/</link>
+      <pubDate>Tue, 15 Nov 2022 00:24:42 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/microservices/</guid>
       <description></description>
     </item>
     
@@ -90,6 +108,15 @@
       <pubDate>Sat, 15 Dec 2018 00:24:47 +0100</pubDate>
       
       <guid>https://vahldiek.github.io/tags/secure-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless computing</title>
+      <link>https://vahldiek.github.io/tags/serverless-computing/</link>
+      <pubDate>Tue, 15 Nov 2022 00:24:42 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/serverless-computing/</guid>
       <description></description>
     </item>
     
