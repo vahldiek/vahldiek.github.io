@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern x86</title>
+      <link>https://vahldiek.github.io/publication/narayan-2022/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/narayan-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uSwitch: Fast Kernel Context Isolation with Implicit Context Switches</title>
+      <link>https://vahldiek.github.io/publication/peng-2023/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/peng-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Memory-Safe Hardware and Software Architecture</title>
       <link>https://vahldiek.github.io/project/meshwa/</link>
       <pubDate>Fri, 11 Nov 2022 00:24:42 +0100</pubDate>
@@ -153,24 +171,6 @@ on the authors and ease the reproduction of results for evaluators.&lt;/p&gt;
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/sahita-2021-isomempat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reducing latency of hardware trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scalabe attestation for trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</guid>
       <description></description>
     </item>
     

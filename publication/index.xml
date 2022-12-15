@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern x86</title>
+      <link>https://vahldiek.github.io/publication/narayan-2022/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/narayan-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uSwitch: Fast Kernel Context Isolation with Implicit Context Switches</title>
+      <link>https://vahldiek.github.io/publication/peng-2023/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/peng-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The case for a Memory-Safe Hardware and Software Architecture for Serverless Computing</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2022-words/</link>
       <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
