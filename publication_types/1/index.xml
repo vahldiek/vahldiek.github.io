@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Dec 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>uSwitch: Fast Kernel Context Isolation with Implicit Context Switches</title>
+      <link>https://vahldiek.github.io/publication/peng-2023/</link>
+      <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/peng-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern x86</title>
