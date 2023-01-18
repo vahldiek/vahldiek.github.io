@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>The Rise of Memory-Safe Languages: Building a Fast, Elastic, Secure Software &amp; Hardware Architecture</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2022-darpa/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2022-darpa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern x86</title>
       <link>https://vahldiek.github.io/publication/narayan-2022/</link>
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
@@ -162,15 +171,6 @@ on the authors and ease the reproduction of results for evaluators.&lt;/p&gt;
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Isolating memory within trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/sahita-2021-isomempat/</link>
-      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/sahita-2021-isomempat/</guid>
       <description></description>
     </item>
     

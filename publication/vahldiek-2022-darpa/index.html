@@ -15,11 +15,27 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="Motivated by developer productivity, serverless computing, and
+microservices have become the de facto development model in the cloud.
+Microservices decompose monolithic applications into separate functional units
+deployed individually. This deployment model, however, costs CSPs a large
+infrastructure tax of more than 25%. To overcome these limitations, CSPs shift
+workloads to Infrastructure Processing Units (IPUs) like Amazon’s Nitro or,
+complementary, innovate by building on memory-safe languages and novel software
+abstractions.
+
+Based on these trends, we hypothesize a MemorySafe Software and Hardware
+Architecture providing a general-purpose runtime environment to specialize
+functionality when needed and strongly isolate components. To achieve this goal,
+we investigate building a single address space OS or a multi-application library
+OS, possible hardware implications, and demonstrate their capabilities,
+drawbacks and requirements. The goal is to bring the advantages to all
+application workloads including legacy and memory-unsafe applications, and
+analyze how hardware may improve the efficiency and security.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/vahldiek-2022-darpa/">
 
   
 
@@ -100,7 +116,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/vahldiek-2022-darpa/">
 
   
   
@@ -115,12 +131,30 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="">
-  <meta property="og:title" content="404 Page not found | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/vahldiek-2022-darpa/">
+  <meta property="og:title" content="The Rise of Memory-Safe Languages: Building a Fast, Elastic, Secure Software &amp; Hardware Architecture | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Motivated by developer productivity, serverless computing, and
+microservices have become the de facto development model in the cloud.
+Microservices decompose monolithic applications into separate functional units
+deployed individually. This deployment model, however, costs CSPs a large
+infrastructure tax of more than 25%. To overcome these limitations, CSPs shift
+workloads to Infrastructure Processing Units (IPUs) like Amazon’s Nitro or,
+complementary, innovate by building on memory-safe languages and novel software
+abstractions.
+
+Based on these trends, we hypothesize a MemorySafe Software and Hardware
+Architecture providing a general-purpose runtime environment to specialize
+functionality when needed and strongly isolate components. To achieve this goal,
+we investigate building a single address space OS or a multi-application library
+OS, possible hardware implications, and demonstrate their capabilities,
+drawbacks and requirements. The goal is to bring the advantages to all
+application workloads including legacy and memory-unsafe applications, and
+analyze how hardware may improve the efficiency and security."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2022-12-15T00:00:00&#43;00:00">
   
+  <meta property="article:modified_time" content="2022-12-15T00:00:00&#43;00:00">
   
 
   
@@ -153,7 +187,7 @@
 
   
 
-  <title>404 Page not found | Anjo Vahldiek-Oberwagner</title>
+  <title>The Rise of Memory-Safe Languages: Building a Fast, Elastic, Secure Software &amp; Hardware Architecture | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -357,70 +391,232 @@
   </div>
 </nav>
 
-<div class="container">
-
-  <h1>Page not found</h1>
-  <p>Perhaps you were looking for one of these?</p>
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-  
 
-  
-  
-  <h2>Publications</h2>
-  
-  <ul>
-    <li><a href="/publication/peng-2023/">uSwitch: Fast Kernel Context Isolation with Implicit Context Switches</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/vahldiek-2022-darpa/">The Rise of Memory-Safe Languages: Building a Fast, Elastic, Secure Software &amp; Hardware Architecture</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/narayan-2022/">Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern x86</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/vahldiek-2022-words/">MeSHwA: The case for a Memory-Safe Software and Hardware Architecture for Serverless Computing</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/lee-2022/">Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing</a></li>
-  </ul>
-  
+
+
+
+
+
+
+
+
+
+
+
   
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">The Rise of Memory-Safe Languages: Building a Fast, Elastic, Secure Software &amp; Hardware Architecture</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
 
   
   
-  <h2>Projects</h2>
   
-  <ul>
-    <li><a href="/project/meshwa/">Memory-Safe Hardware and Software Architecture</a></li>
-  </ul>
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
+    </span>
+    
+  </div>
   
-  <ul>
-    <li><a href="/project/artifact-eval/">Research Artifacts and Evaluation</a></li>
-  </ul>
+
+  <span class="article-date">
+    
+    <meta content="2022-12-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2022-12-15 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Dec 15, 2022
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
   
-  <ul>
-    <li><a href="/project/guardat/">Protecting Persistent Data</a></li>
-  </ul>
+
   
-  <ul>
-    <li><a href="/project/erim/">Secure, Efficient In-Process Memory Isolation</a></li>
-  </ul>
   
-  <ul>
-    <li><a href="/project/untrustedcloud/">Shielding Applications in an untrusted Cloud</a></li>
-  </ul>
+
   
+
+  
+  
+
   
 
 </div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/vahldiek-2022-darpa/vahldiek-2022-darpa.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/darpa_riser_poster.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text"><p>Motivated by developer productivity, serverless computing, and
+microservices have become the de facto development model in the cloud.
+Microservices decompose monolithic applications into separate functional units
+deployed individually. This deployment model, however, costs CSPs a large
+infrastructure tax of more than 25%. To overcome these limitations, CSPs shift
+workloads to Infrastructure Processing Units (IPUs) like Amazon’s Nitro or,
+complementary, innovate by building on memory-safe languages and novel software
+abstractions.</p>
+
+<p>Based on these trends, we hypothesize a MemorySafe Software and Hardware
+Architecture providing a general-purpose runtime environment to specialize
+functionality when needed and strongly isolate components. To achieve this goal,
+we investigate building a single address space OS or a multi-application library
+OS, possible hardware implications, and demonstrate their capabilities,
+drawbacks and requirements. The goal is to bring the advantages to all
+application workloads including legacy and memory-unsafe applications, and
+analyze how hardware may improve the efficiency and security.</p>
+</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#10">
+              Poster
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Poster at DARPA Forward Conference</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            December, 2022
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
+</div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
