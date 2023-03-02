@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -17,11 +15,20 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="We introduce Hardware-assisted Fault Isolation (HFI), a simple
+extension to existing processors to support secure, flexible, and efficient
+in-process isolation. HFI addresses the limitations of existing software-based
+isolation (SFI) systems including: runtime overheads, limited scalability,
+vulnerability to Spectre attacks, and limited compatibility with existing code.
+HFI can seamlessly integrate with current SFI systems (e.g., WebAssembly), or
+directly sandbox unmodified native binaries. To ease adoption, HFI relies only
+on incremental changes to the data and control path of existing high-performance
+processors. We evaluate HFI for x86-64 using the gem5 simulator and
+compiler-based emulation on a mix of real and synthetic workloads.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication_types/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/narayan-2023/">
 
   
 
@@ -94,15 +101,15 @@
   
 
   
-  <link rel="alternate" href="https://vahldiek.github.io/publication_types/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
-  <link rel="feed" href="https://vahldiek.github.io/publication_types/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="alternate" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="feed" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/publication_types/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/narayan-2023/">
 
   
   
@@ -117,12 +124,23 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/publication_types/">
-  <meta property="og:title" content="Publication_types | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/narayan-2023/">
+  <meta property="og:title" content="Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="We introduce Hardware-assisted Fault Isolation (HFI), a simple
+extension to existing processors to support secure, flexible, and efficient
+in-process isolation. HFI addresses the limitations of existing software-based
+isolation (SFI) systems including: runtime overheads, limited scalability,
+vulnerability to Spectre attacks, and limited compatibility with existing code.
+HFI can seamlessly integrate with current SFI systems (e.g., WebAssembly), or
+directly sandbox unmodified native binaries. To ease adoption, HFI relies only
+on incremental changes to the data and control path of existing high-performance
+processors. We evaluate HFI for x86-64 using the gem5 simulator and
+compiler-based emulation on a mix of real and synthetic workloads."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2023-03-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2023-03-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2023-03-01T00:00:00&#43;00:00">
   
 
   
@@ -155,7 +173,7 @@
 
   
 
-  <title>Publication_types | Anjo Vahldiek-Oberwagner</title>
+  <title>Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -359,8 +377,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -377,70 +396,230 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Shravan Narayan</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Tal Garfinkel</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Mohammadkazem Taram</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Joey Rudek</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Evan Johnson</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Michael LeMay</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Ravi Sahita</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Dean Tullsen</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Deian Stefan</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2023-03-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2023-03-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Mar 1, 2023
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Publication_types</h1>
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://cseweb.ucsd.edu/~dstefan/pubs/narayan:2023:hfi.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/narayan-2023/narayan-2023.bib">
+  Cite
+</button>
+
+
+
+
 
   
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/publication_types/1/">1</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication_types/10/">10</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication_types/4/">4</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication_types/7/">7</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication_types/8/">8</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication_types/9/">9</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">We introduce Hardware-assisted Fault Isolation (HFI), a simple
+extension to existing processors to support secure, flexible, and efficient
+in-process isolation. HFI addresses the limitations of existing software-based
+isolation (SFI) systems including: runtime overheads, limited scalability,
+vulnerability to Spectre attacks, and limited compatibility with existing code.
+HFI can seamlessly integrate with current SFI systems (e.g., WebAssembly), or
+directly sandbox unmodified native binaries. To ease adoption, HFI relies only
+on incremental changes to the data and control path of existing high-performance
+processors. We evaluate HFI for x86-64 using the gem5 simulator and
+compiler-based emulation on a mix of real and synthetic workloads.</p>
+    
 
-  
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference/Workshop paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            March, 2023
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
 </div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
@@ -551,6 +730,4 @@
 
   </body>
 </html>
-
-
 

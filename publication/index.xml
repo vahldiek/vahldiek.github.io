@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</title>
+      <link>https://vahldiek.github.io/publication/narayan-2023/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/narayan-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>uSwitch: Fast Kernel Context Isolation with Implicit Context Switches</title>
       <link>https://vahldiek.github.io/publication/peng-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
