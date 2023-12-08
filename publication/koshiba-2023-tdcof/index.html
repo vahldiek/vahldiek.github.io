@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -17,11 +15,11 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="The rising performance demands and increasing heterogeneity in cloud data centers lead to a paradigm shift in the cloud infrastructure, from monolithic servers to a disaggregated architecture. In a multi-tenant cloud, users should be able to leverage trusted computing to protect their applications from untrusted parties. While Trusted Execution Environments (TEEs) are a well-known technique to realize trusted computing on monolithic servers, we cannot adopt existing TEE technologies to the disaggregated architecture due to their distributed nature and heterogeneity of devices. To address these challenges, we propose trusted heterogeneous disaggregated architectures, which allows cloud users to construct virtual TEEs (vTEEs): TEE-based, secure, isolated environments assembled with any combination of disaggregated components.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication_types/1/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/koshiba-2023-tdcof/">
 
   
 
@@ -94,15 +92,15 @@
   
 
   
-  <link rel="alternate" href="https://vahldiek.github.io/publication_types/1/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
-  <link rel="feed" href="https://vahldiek.github.io/publication_types/1/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="alternate" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="feed" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/publication_types/1/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/koshiba-2023-tdcof/">
 
   
   
@@ -117,12 +115,14 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/publication_types/1/">
-  <meta property="og:title" content="1 | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/koshiba-2023-tdcof/">
+  <meta property="og:title" content="Trusted Heterogeneous Disaggregated Architectures | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="The rising performance demands and increasing heterogeneity in cloud data centers lead to a paradigm shift in the cloud infrastructure, from monolithic servers to a disaggregated architecture. In a multi-tenant cloud, users should be able to leverage trusted computing to protect their applications from untrusted parties. While Trusted Execution Environments (TEEs) are a well-known technique to realize trusted computing on monolithic servers, we cannot adopt existing TEE technologies to the disaggregated architecture due to their distributed nature and heterogeneity of devices. To address these challenges, we propose trusted heterogeneous disaggregated architectures, which allows cloud users to construct virtual TEEs (vTEEs): TEE-based, secure, isolated environments assembled with any combination of disaggregated components."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-04-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2023-08-24T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2023-08-24T00:00:00&#43;00:00">
   
 
   
@@ -155,7 +155,7 @@
 
   
 
-  <title>1 | Anjo Vahldiek-Oberwagner</title>
+  <title>Trusted Heterogeneous Disaggregated Architectures | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -359,8 +359,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -377,83 +378,209 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Trusted Heterogeneous Disaggregated Architectures</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Atsushi Koshiba</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Felix Gust</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Julian Pritzi</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Nuno Santos</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Pramod Bhatotia</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2023-08-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2023-08-24 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Aug 24, 2023
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">1</h1>
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://dse.in.tum.de/wp-content/uploads/2023/07/tdos_apsys23_rev2.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/koshiba-2023-tdcof/koshiba-2023-tdcof.bib">
+  Cite
+</button>
+
+
+
+
 
   
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/publication/krahn-2018/">Pesos: Policy Enhanced Secure Object store</a></h2>
-    <div class="article-style">
-      
-      Third-party storage services pose the risk of integrity and confidentiality violations as the current storage policy enforcement mechanisms are spread across many layers in the system
-stack. To mitigate these security vulnerabilities, we present …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/litton-2016/">Light-Weight Contexts: An OS Abstraction for Safety and Performance</a></h2>
-    <div class="article-style">
-      
-      We introduce a new OS abstraction—light-weight con- texts (lwCs)—that provides independent units of protec- tion, privilege, and execution state within a process. A process may include several lwCs, each with possibly different views of memory, file …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/elnikety-2016/">Thoth : Comprehensive Policy Compliance in Data Retrieval Systems</a></h2>
-    <div class="article-style">
-      
-      Data retrieval systems process data from many sources, each subject to its own data use policy. Ensuring compli-ance with these policies despite bugs, misconfiguration, or operator error in a large, complex, and fast evolving system is a major …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/vahldiek-oberwagner-2015/">Guardat: Enforcing data policies at the storage layer</a></h2>
-    <div class="article-style">
-      
-      In today’s data processing systems, both the policies protecting stored data and the mechanisms for their enforcement are spread over many software components and configuration files, increasing the risk of policy violation due to bugs, …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/graf-2011-verifiedwireless/">A verifiedwireless safety critical hard real-time design</a></h2>
-    <div class="article-style">
-      
-      Wireless communication, hard real time requirements and safety criticality do not go together well. This paper reports on the modelling, design, simulation, implementation and deployment of a small exemplary case that possesses all these features. …
-      
-    </div>
-  </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/publication_types/1/">&laquo;</a></li>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">The rising performance demands and increasing heterogeneity in cloud data centers lead to a paradigm shift in the cloud infrastructure, from monolithic servers to a disaggregated architecture. In a multi-tenant cloud, users should be able to leverage trusted computing to protect their applications from untrusted parties. While Trusted Execution Environments (TEEs) are a well-known technique to realize trusted computing on monolithic servers, we cannot adopt existing TEE technologies to the disaggregated architecture due to their distributed nature and heterogeneity of devices. To address these challenges, we propose trusted heterogeneous disaggregated architectures, which allows cloud users to construct virtual TEEs (vTEEs): TEE-based, secure, isolated environments assembled with any combination of disaggregated components.</p>
     
+
     
-  </ul>
-</nav>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference/Workshop paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the ACM SIGOPS Asia-Pacific Workshop on Systems (APSys)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            August, 2023
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
 </div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
@@ -564,6 +691,4 @@ stack. To mitigate these security vulnerabilities, we present …
 
   </body>
 </html>
-
-
 

@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Endoprocess: Programmable and Extensible Subprocess Isolation</title>
+      <link>https://vahldiek.github.io/publication/yang-2023-endoprocess/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/yang-2023-endoprocess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trusted Heterogeneous Disaggregated Architectures</title>
+      <link>https://vahldiek.github.io/publication/koshiba-2023-tdcof/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/koshiba-2023-tdcof/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</title>

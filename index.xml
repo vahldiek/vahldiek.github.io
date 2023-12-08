@@ -11,6 +11,42 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Endoprocess: Programmable and Extensible Subprocess Isolation</title>
+      <link>https://vahldiek.github.io/publication/yang-2023-endoprocess/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/yang-2023-endoprocess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trusted Heterogeneous Disaggregated Architectures</title>
+      <link>https://vahldiek.github.io/publication/koshiba-2023-tdcof/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/koshiba-2023-tdcof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Method and apparatus for multi-dimensional attestation for a software application</title>
+      <link>https://vahldiek.github.io/publication/melara-2023-attest/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/melara-2023-attest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATTESTATION OF OPERATIONS BY TOOL CHAINS</title>
+      <link>https://vahldiek.github.io/publication/scarlata-2022-atttool/</link>
+      <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/scarlata-2022-atttool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</title>
       <link>https://vahldiek.github.io/publication/narayan-2023/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
@@ -135,42 +171,6 @@ on the authors and ease the reproduction of results for evaluators.&lt;/p&gt;
       <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/malik-2022-aehpc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimizing deployment and security of microservices</title>
-      <link>https://vahldiek.github.io/publication/saxena-2022-optuserv/</link>
-      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/saxena-2022-optuserv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ATTESTATION OF OPERATIONS BY TOOL CHAINS</title>
-      <link>https://vahldiek.github.io/publication/scarlata-2022-atttool/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/scarlata-2022-atttool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TECHNOLOGY TO CONTROL SYSTEM CALL INVOCATIONS WITHIN A SINGLE ADDRESS SPACE</title>
-      <link>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Endokernel: Fast, Secure, and Programmable Subprocess Virtualization</title>
-      <link>https://vahldiek.github.io/publication/im-2021-endokernel/</link>
-      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/im-2021-endokernel/</guid>
       <description></description>
     </item>
     
