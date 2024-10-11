@@ -31,6 +31,24 @@
     </item>
     
     <item>
+      <title>CRYPTOGRAPHIC COMPUTING INCLUDING ENHANCED CRYPTOGRAPHIC ADDRESSES</title>
+      <link>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable cloning and replication for trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/sahita-2022-clonetee/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/sahita-2022-clonetee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>REDUCING INSTRUMENTATION CODE BLOAT AND PERFORMANCE OVERHEADS USING A RUNTIME CALL INSTRUCTION</title>
       <link>https://vahldiek.github.io/publication/lemay-2024-rtcall/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
@@ -45,24 +63,6 @@
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/melara-2023-attest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scalable cloning and replication for trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/sahita-2022-clonetee/</link>
-      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/sahita-2022-clonetee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CRYPTOGRAPHIC COMPUTING INCLUDING ENHANCED CRYPTOGRAPHIC ADDRESSES</title>
-      <link>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</link>
-      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</guid>
       <description></description>
     </item>
     

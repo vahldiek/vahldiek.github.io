@@ -56,6 +56,24 @@
     </item>
     
     <item>
+      <title>CRYPTOGRAPHIC COMPUTING INCLUDING ENHANCED CRYPTOGRAPHIC ADDRESSES</title>
+      <link>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable cloning and replication for trusted execution environments</title>
+      <link>https://vahldiek.github.io/publication/sahita-2022-clonetee/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/sahita-2022-clonetee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>REDUCING INSTRUMENTATION CODE BLOAT AND PERFORMANCE OVERHEADS USING A RUNTIME CALL INSTRUCTION</title>
       <link>https://vahldiek.github.io/publication/lemay-2024-rtcall/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
@@ -125,33 +143,6 @@
       
       <guid>https://vahldiek.github.io/publication/vahldiek-2022-darpa/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern x86</title>
-      <link>https://vahldiek.github.io/publication/narayan-2022/</link>
-      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/narayan-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memory-Safe Hardware and Software Architecture</title>
-      <link>https://vahldiek.github.io/project/meshwa/</link>
-      <pubDate>Fri, 11 Nov 2022 00:24:42 +0100</pubDate>
-      
-      <guid>https://vahldiek.github.io/project/meshwa/</guid>
-      <description>&lt;p&gt;Motivated by developer productivity, serverless computing, and
-microservices have become the de facto development model in the cloud.
-Microservices decompose monolithic applications into separate functional units
-deployed individually. This deployment model, however, costs CSPs a large
-infrastructure tax of more than 25%.&lt;/p&gt;
-
-&lt;p&gt;To overcome this architectural limitation, we hypothesize a Memory-Safe Software
-and Hardware Architecture providing a general-purpose runtime environment to
-specialize functionality when needed and strongly isolate components.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
