@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fortify Your Foundations: Practical Privacy and Security for Foundation Model Deployments In The Cloud</title>
+      <link>https://vahldiek.github.io/publication/chrapek-2024-llmcc/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/chrapek-2024-llmcc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Endokernel: Fast, Secure, and Programmable Subprocess Virtualization</title>
