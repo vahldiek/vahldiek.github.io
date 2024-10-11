@@ -15,11 +15,47 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="Modern software architectures in cloud computing are highly reliant
+on interconnected local and remote services.
+Popular architectures, such as the service mesh,
+rely on the use of independent services or sidecars for
+a single application. While such modular approaches
+simplify application development and deployment,
+they also introduce significant communication overhead since
+now even local communication that is handled by the kernel
+becomes a performance bottleneck. This problem has been
+identified and partially solved for remote communication over
+fast NICs through the use of kernel-bypass data plane systems.
+However, existing kernel-bypass
+mechanisms challenge their practical deployment by either
+requiring code modification or supporting only a small subset of the network
+interface.
+
+In this paper, we propose Pegasus, a framework for transparent
+kernel bypass for local and remote communication.
+By transparently fusing multiple applications into a single
+process, Pegasus provides an in-process *fast path* to
+bypass the kernel for local communication.
+To accelerate remote communication over fast NICs, Pegasus
+uses DPDK to directly access the NIC.
+Pegasus supports transparent kernel bypass
+for unmodified binaries by implementing core OS services in user space, such
+as scheduling and memory management, thus
+removing the kernel from the critical path.
+Our experiments on a range of real-world applications show that,
+compared with Linux,
+Pegasus improves the throughput
+by 19% to 33% for local communication
+and 178% to 442% for remote communication,
+without application changes.
+Furthermore, Pegasus achieves 222% higher
+throughput than Linux for co-located, IO-intensive applications that
+require both local and remote communication, with each communication
+optimization contributing significantly.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/peng-2025/">
 
   
 
@@ -100,7 +136,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/peng-2025/">
 
   
   
@@ -115,12 +151,50 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="">
-  <meta property="og:title" content="404 Page not found | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/peng-2025/">
+  <meta property="og:title" content="Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Modern software architectures in cloud computing are highly reliant
+on interconnected local and remote services.
+Popular architectures, such as the service mesh,
+rely on the use of independent services or sidecars for
+a single application. While such modular approaches
+simplify application development and deployment,
+they also introduce significant communication overhead since
+now even local communication that is handled by the kernel
+becomes a performance bottleneck. This problem has been
+identified and partially solved for remote communication over
+fast NICs through the use of kernel-bypass data plane systems.
+However, existing kernel-bypass
+mechanisms challenge their practical deployment by either
+requiring code modification or supporting only a small subset of the network
+interface.
+
+In this paper, we propose Pegasus, a framework for transparent
+kernel bypass for local and remote communication.
+By transparently fusing multiple applications into a single
+process, Pegasus provides an in-process *fast path* to
+bypass the kernel for local communication.
+To accelerate remote communication over fast NICs, Pegasus
+uses DPDK to directly access the NIC.
+Pegasus supports transparent kernel bypass
+for unmodified binaries by implementing core OS services in user space, such
+as scheduling and memory management, thus
+removing the kernel from the critical path.
+Our experiments on a range of real-world applications show that,
+compared with Linux,
+Pegasus improves the throughput
+by 19% to 33% for local communication
+and 178% to 442% for remote communication,
+without application changes.
+Furthermore, Pegasus achieves 222% higher
+throughput than Linux for co-located, IO-intensive applications that
+require both local and remote communication, with each communication
+optimization contributing significantly."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2024-09-21T00:00:00&#43;00:00">
   
+  <meta property="article:modified_time" content="2025-04-30T00:00:00&#43;00:00">
   
 
   
@@ -153,7 +227,7 @@
 
   
 
-  <title>404 Page not found | Anjo Vahldiek-Oberwagner</title>
+  <title>Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -357,70 +431,259 @@
   </div>
 </nav>
 
-<div class="container">
-
-  <h1>Page not found</h1>
-  <p>Perhaps you were looking for one of these?</p>
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-  
 
-  
-  
-  <h2>Publications</h2>
-  
-  <ul>
-    <li><a href="/publication/peng-2025/">Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/constable-2024-modelintegrity/">METHODS AND APPARATUS TO VERIFY THE INTEGRITY OF A MODEL</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/vahldiek-oberwagner-2024-modelaccuracy/">Artificial intelligence model accuracy validation</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/yang-2024-endokernel/">Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="/publication/narayan-2024/">Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing</a></li>
-  </ul>
-  
+
+
+
+
+
+
+
+
+
+
+
   
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
 
   
   
-  <h2>Projects</h2>
   
-  <ul>
-    <li><a href="/project/meshwa/">Memory-Safe Hardware and Software Architecture</a></li>
-  </ul>
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Dinglan Peng</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Congyu Liu</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Tapti Palit</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Mona Vij</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Pedro Fonseca</span>
+    </span>
+    
+  </div>
   
-  <ul>
-    <li><a href="/project/artifact-eval/">Research Artifacts and Evaluation</a></li>
-  </ul>
+
+  <span class="article-date">
+    
+    <meta content="2025-04-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2025-04-30 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Apr 30, 2025
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
   
-  <ul>
-    <li><a href="/project/guardat/">Protecting Persistent Data</a></li>
-  </ul>
+
   
-  <ul>
-    <li><a href="/project/erim/">Secure In-Process Memory Isolation and Efficient Cloud Deployments</a></li>
-  </ul>
   
-  <ul>
-    <li><a href="/project/untrustedcloud/">Shielding Applications in an untrusted Cloud</a></li>
-  </ul>
+
   
+
+  
+  
+
   
 
 </div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/peng-2025/peng-2025.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text"><p>Modern software architectures in cloud computing are highly reliant
+on interconnected local and remote services.
+Popular architectures, such as the service mesh,
+rely on the use of independent services or sidecars for
+a single application. While such modular approaches
+simplify application development and deployment,
+they also introduce significant communication overhead since
+now even local communication that is handled by the kernel
+becomes a performance bottleneck. This problem has been
+identified and partially solved for remote communication over
+fast NICs through the use of kernel-bypass data plane systems.
+However, existing kernel-bypass
+mechanisms challenge their practical deployment by either
+requiring code modification or supporting only a small subset of the network
+interface.</p>
+
+<p>In this paper, we propose Pegasus, a framework for transparent
+kernel bypass for local and remote communication.
+By transparently fusing multiple applications into a single
+process, Pegasus provides an in-process <em>fast path</em> to
+bypass the kernel for local communication.
+To accelerate remote communication over fast NICs, Pegasus
+uses DPDK to directly access the NIC.
+Pegasus supports transparent kernel bypass
+for unmodified binaries by implementing core OS services in user space, such
+as scheduling and memory management, thus
+removing the kernel from the critical path.
+Our experiments on a range of real-world applications show that,
+compared with Linux,
+Pegasus improves the throughput
+by 19% to 33% for local communication
+and 178% to 442% for remote communication,
+without application changes.
+Furthermore, Pegasus achieves 222% higher
+throughput than Linux for co-located, IO-intensive applications that
+require both local and remote communication, with each communication
+optimization contributing significantly.</p>
+</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference/Workshop paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the ACM European Conference on Computer Systems (EuroSys)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            April, 2025
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
+</div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   

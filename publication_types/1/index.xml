@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</title>
+      <link>https://vahldiek.github.io/publication/peng-2025/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/peng-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation</title>
