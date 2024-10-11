@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/9/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>METHODS AND APPARATUS TO VERIFY THE INTEGRITY OF A MODEL</title>
+      <link>https://vahldiek.github.io/publication/constable-2024-modelintegrity/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/constable-2024-modelintegrity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial intelligence model accuracy validation</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2024-modelaccuracy/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2024-modelaccuracy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REDUCING INSTRUMENTATION CODE BLOAT AND PERFORMANCE OVERHEADS USING A RUNTIME CALL INSTRUCTION</title>
+      <link>https://vahldiek.github.io/publication/lemay-2024-rtcall/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2024-rtcall/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Method and apparatus for multi-dimensional attestation for a software application</title>

@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="Providing isolation for sensitive data and state to increase the security and robustness of applications. ">
+  <meta name="description" content="Providing in-process isolation for sensitive data and state to increase the security and robustness of applications and its use to provide efficient cloud deployments ">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
@@ -116,8 +116,8 @@
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
   <meta property="og:url" content="https://vahldiek.github.io/project/erim/">
-  <meta property="og:title" content="Secure, Efficient In-Process Memory Isolation | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="Providing isolation for sensitive data and state to increase the security and robustness of applications. "><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:title" content="Secure In-Process Memory Isolation and Efficient Cloud Deployments | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Providing in-process isolation for sensitive data and state to increase the security and robustness of applications and its use to provide efficient cloud deployments "><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-12-15T00:24:42&#43;01:00">
@@ -155,7 +155,7 @@
 
   
 
-  <title>Secure, Efficient In-Process Memory Isolation | Anjo Vahldiek-Oberwagner</title>
+  <title>Secure In-Process Memory Isolation and Efficient Cloud Deployments | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -381,7 +381,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Secure, Efficient In-Process Memory Isolation</h1>
+  <h1 itemprop="name">Secure In-Process Memory Isolation and Efficient Cloud Deployments</h1>
 
   
 
@@ -465,6 +465,10 @@ break out of the Wasm sandbox nor coerce victim code—another Wasm client or th
 embedding process—to leak secret data. We suggest Swivel, a new compiler
 framework for hardening WebAssembly (Wasm) against Spectre attacks.</p>
 
+<p>Using these findings, we apply in-process memory isolation to legacy cloud
+deployments allowing symbiotic applications to efficiently communicate and
+improve performance.</p>
+
     </div>
 
     
@@ -475,6 +479,8 @@ framework for hardening WebAssembly (Wasm) against Spectre attacks.</p>
   <a class="badge badge-light" href="/tags/memory-isolation/">memory isolation</a>
   
   <a class="badge badge-light" href="/tags/intel-mpk/">Intel MPK</a>
+  
+  <a class="badge badge-light" href="/tags/faas/">FaaS</a>
   
 </div>
 
@@ -495,6 +501,156 @@ framework for hardening WebAssembly (Wasm) against Spectre attacks.</p>
       
       
         <h2>Publications</h2>
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/peng-2025/" itemprop="name">Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</a>
+  <div itemprop="author">
+    Dinglan Peng, Congyu Liu, Tapti Palit, Anjo Vahldiek-Oberwagner, Mona Vij, Pedro Fonseca</div>
+  ACM EuroSys,
+  2024.
+  <p>
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/peng-2025/peng-2025.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/yang-2024-endokernel/" itemprop="name">Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation</a>
+  <div itemprop="author">
+    Fangfei Yang, Bumjin Im, Weijie Huang, Kelly Kaoudis, Anjo Vahldiek-Oberwagner, Chia-Che Tsai, Nathan Dautenhahn</div>
+  USENIX Security Symposium (USESEC),
+  2024.
+  <p>
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/yang-2024-endokernel/yang-2024-endokernel.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/narayan-2024/" itemprop="name">Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing</a>
+  <div itemprop="author">
+    Shravan Narayan, Tal Garfinkel, Mohammadkazem Taram, Joey Rudek, Daniel Moghimi, Evan Johnson, Anjo Vahldiek-Oberwagner, Michael LeMay, Ravi Sahita, Dean Tullsen, Deian Stefan</div>
+  IEEE Micro Top Picks 2024,
+  2024.
+  <p>
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://shravanrn.com/pubs/microtop-hfi.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/narayan-2024/narayan-2024.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
         
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
@@ -549,7 +705,7 @@ framework for hardening WebAssembly (Wasm) against Spectre attacks.</p>
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   <a href="/publication/narayan-2023/" itemprop="name">Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</a>
   <div itemprop="author">
-    Shravan Narayan, Tal Garfinkel, Mohammadkazem Taram, Joey Rudek, Evan Johnson, Anjo Vahldiek-Oberwagner, Michael LeMay, Ravi Sahita, Dean Tullsen, Deian Stefan</div>
+    Shravan Narayan, Tal Garfinkel, Mohammadkazem Taram, Joey Rudek, Daniel Moghimi, Evan Johnson, Anjo Vahldiek-Oberwagner, Michael LeMay, Ravi Sahita, Dean Tullsen, Deian Stefan</div>
   ASPLOS, <b>Distinguished Paper Award</b>,
   2023.
   <p>

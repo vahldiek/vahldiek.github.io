@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -17,11 +15,13 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="Compartmentalization decomposes applications into isolated components, effectively confining the scope of potential security breaches. Recent approaches nest the protection monitor within processes for efficient memory isolation at the cost of security. However, these systems lack solutions for efficient multithreaded safety and neglect kernel semantics that can be abused to bypass the monitor.
+
+The Endokernel is an intra-process security monitor that isolates memory at subprocess granularity. It ensures backwards-compatible and secure emulation of system interfaces, a task uniquely challenging due to the need to analyze OS and hardware semantics beyond mere interface usability. We introduce an inside-out methodology where we identify core OS primitives that allow bypass and map that back to the interfaces that depend on them. This approach led to the identification of several missing policies as well as aided in developing a fine-grained locking approach to deal with complex thread safety when inserting a monitor between the OS and the application. Results indicate that we can achieve fast isolation while greatly enhancing security and maintaining backwards-compatibility, and also showing a new method for systematically finding gaps in policies.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/tags/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/yang-2024-endokernel/">
 
   
 
@@ -94,15 +94,15 @@
   
 
   
-  <link rel="alternate" href="https://vahldiek.github.io/tags/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
-  <link rel="feed" href="https://vahldiek.github.io/tags/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="alternate" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="feed" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/tags/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/yang-2024-endokernel/">
 
   
   
@@ -117,12 +117,16 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/tags/">
-  <meta property="og:title" content="Tags | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/yang-2024-endokernel/">
+  <meta property="og:title" content="Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Compartmentalization decomposes applications into isolated components, effectively confining the scope of potential security breaches. Recent approaches nest the protection monitor within processes for efficient memory isolation at the cost of security. However, these systems lack solutions for efficient multithreaded safety and neglect kernel semantics that can be abused to bypass the monitor.
+
+The Endokernel is an intra-process security monitor that isolates memory at subprocess granularity. It ensures backwards-compatible and secure emulation of system interfaces, a task uniquely challenging due to the need to analyze OS and hardware semantics beyond mere interface usability. We introduce an inside-out methodology where we identify core OS primitives that allow bypass and map that back to the interfaces that depend on them. This approach led to the identification of several missing policies as well as aided in developing a fine-grained locking approach to deal with complex thread safety when inserting a monitor between the OS and the application. Results indicate that we can achieve fast isolation while greatly enhancing security and maintaining backwards-compatibility, and also showing a new method for systematically finding gaps in policies."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-12-15T00:24:42&#43;01:00">
+  <meta property="article:published_time" content="2024-08-14T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2024-08-14T00:00:00&#43;00:00">
   
 
   
@@ -155,7 +159,7 @@
 
   
 
-  <title>Tags | Anjo Vahldiek-Oberwagner</title>
+  <title>Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -359,8 +363,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -377,107 +382,209 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Tags</h1>
+
+<div class="article-metadata">
 
   
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Fangfei Yang</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Bumjin Im</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Weijie Huang</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Kelly Kaoudis</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Chia-Che Tsai</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Nathan Dautenhahn</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2024-08-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2024-08-14 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Aug 14, 2024
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/yang-2024-endokernel/yang-2024-endokernel.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/tags/confidential-compute/">Confidential Compute</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/faas/">FaaS</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/intel-mpk/">Intel MPK</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/intel-sgx/">Intel SGX</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/max-planck-institute-for-software-systems/">Max Planck Institute for Software Systems</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/university-of-maryland/">University of Maryland</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/artifact-evaluation/">artifact evaluation</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/memory-isolation/">memory isolation</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/memory-safe-langauges/">memory-safe langauges</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/microservices/">microservices</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
-    
-    <li class="page-item"><a class="page-link" href="/tags/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text"><p>Compartmentalization decomposes applications into isolated components, effectively confining the scope of potential security breaches. Recent approaches nest the protection monitor within processes for efficient memory isolation at the cost of security. However, these systems lack solutions for efficient multithreaded safety and neglect kernel semantics that can be abused to bypass the monitor.</p>
 
+<p>The Endokernel is an intra-process security monitor that isolates memory at subprocess granularity. It ensures backwards-compatible and secure emulation of system interfaces, a task uniquely challenging due to the need to analyze OS and hardware semantics beyond mere interface usability. We introduce an inside-out methodology where we identify core OS primitives that allow bypass and map that back to the interfaces that depend on them. This approach led to the identification of several missing policies as well as aided in developing a fine-grained locking approach to deal with complex thread safety when inserting a monitor between the OS and the application. Results indicate that we can achieve fast isolation while greatly enhancing security and maintaining backwards-compatibility, and also showing a new method for systematically finding gaps in policies.</p>
+</p>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference/Workshop paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the USENIX Security Symposium</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            August, 2024
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
 </div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
@@ -588,6 +695,4 @@
 
   </body>
 </html>
-
-
 

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -17,11 +15,11 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="Techniques for an instruction for a Runtime Call operation are described. An example apparatus comprises decoder circuitry to decode a single instruction, the single instruction to include a field for an identifier of an opcode, the opcode to indicate execution circuitry is to execute a no operation when a runtime call destination equals a predetermined value; and execute an indirect call with the runtime call destination as a destination address when the runtime call destination does not equal the predetermined value. Other examples are described and claimed.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/tags/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/lemay-2024-rtcall/">
 
   
 
@@ -94,15 +92,15 @@
   
 
   
-  <link rel="alternate" href="https://vahldiek.github.io/tags/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
-  <link rel="feed" href="https://vahldiek.github.io/tags/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="alternate" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="feed" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/tags/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/lemay-2024-rtcall/">
 
   
   
@@ -117,12 +115,14 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/tags/">
-  <meta property="og:title" content="Tags | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/lemay-2024-rtcall/">
+  <meta property="og:title" content="REDUCING INSTRUMENTATION CODE BLOAT AND PERFORMANCE OVERHEADS USING A RUNTIME CALL INSTRUCTION | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Techniques for an instruction for a Runtime Call operation are described. An example apparatus comprises decoder circuitry to decode a single instruction, the single instruction to include a field for an identifier of an opcode, the opcode to indicate execution circuitry is to execute a no operation when a runtime call destination equals a predetermined value; and execute an indirect call with the runtime call destination as a destination address when the runtime call destination does not equal the predetermined value. Other examples are described and claimed."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-12-15T00:24:42&#43;01:00">
+  <meta property="article:published_time" content="2024-01-04T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2024-01-04T00:00:00&#43;00:00">
   
 
   
@@ -155,7 +155,7 @@
 
   
 
-  <title>Tags | Anjo Vahldiek-Oberwagner</title>
+  <title>REDUCING INSTRUMENTATION CODE BLOAT AND PERFORMANCE OVERHEADS USING A RUNTIME CALL INSTRUCTION | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -359,8 +359,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -377,107 +378,217 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">REDUCING INSTRUMENTATION CODE BLOAT AND PERFORMANCE OVERHEADS USING A RUNTIME CALL INSTRUCTION</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Michael Lemay</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Dan Baum</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Joseph Cihula</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Joao Batista Correa Gomes Moreira</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Lucas Vahldiek-Oberwagner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Scott Constable</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Andreas Kleen</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Konrad Lai</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Henrique De Medeiros Kawakami</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">David M Durham</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2024-01-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2024-01-04 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 4, 2024
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Tags</h1>
 
-  
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://patents.google.com/patent/US20240004659A1/en" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/lemay-2024-rtcall/lemay-2024-rtcall.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/tags/confidential-compute/">Confidential Compute</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/faas/">FaaS</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/intel-mpk/">Intel MPK</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/intel-sgx/">Intel SGX</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/max-planck-institute-for-software-systems/">Max Planck Institute for Software Systems</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/university-of-maryland/">University of Maryland</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/artifact-evaluation/">artifact evaluation</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/memory-isolation/">memory isolation</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/memory-safe-langauges/">memory-safe langauges</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/microservices/">microservices</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Techniques for an instruction for a Runtime Call operation are described. An example apparatus comprises decoder circuitry to decode a single instruction, the single instruction to include a field for an identifier of an opcode, the opcode to indicate execution circuitry is to execute a no operation when a runtime call destination equals a predetermined value; and execute an indirect call with the runtime call destination as a destination address when the runtime call destination does not equal the predetermined value. Other examples are described and claimed.</p>
     
-    <li class="page-item"><a class="page-link" href="/tags/page/2/">&raquo;</a></li>
+
     
-  </ul>
-</nav>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#9">
+              Patent App.
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>US Patent App. 17 / 853,087</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            January, 2024
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
 </div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
@@ -588,6 +699,4 @@
 
   </body>
 </html>
-
-
 

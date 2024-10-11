@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 08 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</title>
+      <link>https://vahldiek.github.io/publication/peng-2025/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/peng-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation</title>
+      <link>https://vahldiek.github.io/publication/yang-2024-endokernel/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/yang-2024-endokernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing</title>
+      <link>https://vahldiek.github.io/publication/narayan-2024/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/narayan-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Endoprocess: Programmable and Extensible Subprocess Isolation</title>

@@ -11,6 +11,60 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>METHODS AND APPARATUS TO VERIFY THE INTEGRITY OF A MODEL</title>
+      <link>https://vahldiek.github.io/publication/constable-2024-modelintegrity/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/constable-2024-modelintegrity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</title>
+      <link>https://vahldiek.github.io/publication/peng-2025/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/peng-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial intelligence model accuracy validation</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-oberwagner-2024-modelaccuracy/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2024-modelaccuracy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation</title>
+      <link>https://vahldiek.github.io/publication/yang-2024-endokernel/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/yang-2024-endokernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing</title>
+      <link>https://vahldiek.github.io/publication/narayan-2024/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/narayan-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REDUCING INSTRUMENTATION CODE BLOAT AND PERFORMANCE OVERHEADS USING A RUNTIME CALL INSTRUCTION</title>
+      <link>https://vahldiek.github.io/publication/lemay-2024-rtcall/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/lemay-2024-rtcall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Endoprocess: Programmable and Extensible Subprocess Isolation</title>
       <link>https://vahldiek.github.io/publication/yang-2023-endoprocess/</link>
       <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
@@ -98,81 +152,6 @@ infrastructure tax of more than 25%.&lt;/p&gt;
 and Hardware Architecture providing a general-purpose runtime environment to
 specialize functionality when needed and strongly isolate components.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>MeSHwA: The case for a Memory-Safe Software and Hardware Architecture for Serverless Computing</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-2022-words/</link>
-      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-2022-words/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing</title>
-      <link>https://vahldiek.github.io/publication/lee-2022/</link>
-      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/lee-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scalable cloning and replication for trusted execution environments</title>
-      <link>https://vahldiek.github.io/publication/sahita-2022-clonetee/</link>
-      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/sahita-2022-clonetee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research Artifacts and Evaluation</title>
-      <link>https://vahldiek.github.io/project/artifact-eval/</link>
-      <pubDate>Tue, 05 Jul 2022 00:24:42 +0100</pubDate>
-      
-      <guid>https://vahldiek.github.io/project/artifact-eval/</guid>
-      <description>&lt;p&gt;A scientific paper consists of a constellation of artifacts that extend beyond
-the document itself: software, hardware, evaluation data and documentation, raw
-survey results, mechanized proofs, models, test suites, benchmarks, and so on.
-In some cases, the quality of these artifacts is as important as that of the
-document itself.&lt;/p&gt;
-
-&lt;p&gt;My involvement in artifact evaluation efforts in the systems, security and HPC
-communities have led to a growing understanding of building reusable and
-reproducible artifacts. We continuously work on the process to lower the burden
-on the authors and ease the reproduction of results for evaluators.&lt;/p&gt;
-
-&lt;p&gt;Involvement in past Artifact Evaluation:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity24/call-for-artifacts&#34; target=&#34;_blank&#34;&gt;USENIX Security&amp;rsquo;24 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity23/call-for-artifacts&#34; target=&#34;_blank&#34;&gt;USENIX Security&amp;rsquo;23 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://2022.eurosys.org/committees/organization-committee/&#34; target=&#34;_blank&#34;&gt;EuroSys&amp;rsquo;22 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sc21.supercomputing.org/program/awards/sc-best-reproducibility-advancement-award/&#34; target=&#34;_blank&#34;&gt;SC&amp;rsquo;21 Best Reproducibility Advancement Award o-chair&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sc21.supercomputing.org/submit/reproducibility-initiative/&#34; target=&#34;_blank&#34;&gt;SC&amp;rsquo;21 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/conference/osdi20/call-for-artifacts&#34; target=&#34;_blank&#34;&gt;OSDI&amp;rsquo;20 Artifact Evaluation co-chair&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CRYPTOGRAPHIC COMPUTING INCLUDING ENHANCED CRYPTOGRAPHIC ADDRESSES</title>
-      <link>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</link>
-      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expanding the Scope of Artifact Evaluation at HPC Conferences: Experience of SC21</title>
-      <link>https://vahldiek.github.io/publication/malik-2022-aehpc/</link>
-      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/malik-2022-aehpc/</guid>
-      <description></description>
     </item>
     
   </channel>
