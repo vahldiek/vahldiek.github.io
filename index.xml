@@ -20,6 +20,24 @@
     </item>
     
     <item>
+      <title>Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern Architectures</title>
+      <link>https://vahldiek.github.io/publication/narayan-2025/</link>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/narayan-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoK: A Systems Perspective on Compound AI Threats and Countermeasures</title>
+      <link>https://vahldiek.github.io/publication/banerjee-2025/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/banerjee-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fortify Your Foundations: Practical Privacy and Security for Foundation Model Deployments In The Cloud</title>
       <link>https://vahldiek.github.io/publication/chrapek-2024-llmcc/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/scarlata-2022-atttool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</title>
-      <link>https://vahldiek.github.io/publication/narayan-2023/</link>
-      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/narayan-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>uSwitch: Fast Kernel Context Isolation with Implicit Context Switches</title>
-      <link>https://vahldiek.github.io/publication/peng-2023/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/peng-2023/</guid>
       <description></description>
     </item>
     
