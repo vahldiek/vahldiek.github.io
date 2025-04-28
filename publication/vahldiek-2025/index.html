@@ -15,47 +15,11 @@
   
     
   
-  <meta name="description" content="Modern software architectures in cloud computing are highly reliant
-on interconnected local and remote services.
-Popular architectures, such as the service mesh,
-rely on the use of independent services or sidecars for
-a single application. While such modular approaches
-simplify application development and deployment,
-they also introduce significant communication overhead since
-now even local communication that is handled by the kernel
-becomes a performance bottleneck. This problem has been
-identified and partially solved for remote communication over
-fast NICs through the use of kernel-bypass data plane systems.
-However, existing kernel-bypass
-mechanisms challenge their practical deployment by either
-requiring code modification or supporting only a small subset of the network
-interface.
-
-In this paper, we propose Pegasus, a framework for transparent
-kernel bypass for local and remote communication.
-By transparently fusing multiple applications into a single
-process, Pegasus provides an in-process *fast path* to
-bypass the kernel for local communication.
-To accelerate remote communication over fast NICs, Pegasus
-uses DPDK to directly access the NIC.
-Pegasus supports transparent kernel bypass
-for unmodified binaries by implementing core OS services in user space, such
-as scheduling and memory management, thus
-removing the kernel from the critical path.
-Our experiments on a range of real-world applications show that,
-compared with Linux,
-Pegasus improves the throughput
-by 19% to 33% for local communication
-and 178% to 442% for remote communication,
-without application changes.
-Furthermore, Pegasus achieves 222% higher
-throughput than Linux for co-located, IO-intensive applications that
-require both local and remote communication, with each communication
-optimization contributing significantly.">
+  <meta name="description" content="Trusted Execution Environments (TEEs) have become an essential mechanism for securing cloud deployments, more so recently for confidential AI applications. TEEs provide remote attestation of the TEE state through secure hashes signed with device-specific cryptographic keys, but the interpretation and guarantees of these hashes, such as the link between source code and runtime attestation values, need to be established separately. Current methods rely on ad-hoc systems to track this semantic information, which establish these attributes at build time because they are difficult to determine at runtime. This paper proposes an emerging idea to address this limitation through endorsement services, an abstraction for asserting the authenticity and enabling the discovery of attributes about trusted services. Endorsement services also facilitate the dynamic discovery of trusted services that meet specified properties. This abstraction ultimately aims to enhance the flexibility and trustworthiness of confidential compute deployments.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/peng-2025/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/vahldiek-2025/">
 
   
 
@@ -136,7 +100,7 @@ optimization contributing significantly.">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/publication/peng-2025/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/vahldiek-2025/">
 
   
   
@@ -151,50 +115,14 @@ optimization contributing significantly.">
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/publication/peng-2025/">
-  <meta property="og:title" content="Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="Modern software architectures in cloud computing are highly reliant
-on interconnected local and remote services.
-Popular architectures, such as the service mesh,
-rely on the use of independent services or sidecars for
-a single application. While such modular approaches
-simplify application development and deployment,
-they also introduce significant communication overhead since
-now even local communication that is handled by the kernel
-becomes a performance bottleneck. This problem has been
-identified and partially solved for remote communication over
-fast NICs through the use of kernel-bypass data plane systems.
-However, existing kernel-bypass
-mechanisms challenge their practical deployment by either
-requiring code modification or supporting only a small subset of the network
-interface.
-
-In this paper, we propose Pegasus, a framework for transparent
-kernel bypass for local and remote communication.
-By transparently fusing multiple applications into a single
-process, Pegasus provides an in-process *fast path* to
-bypass the kernel for local communication.
-To accelerate remote communication over fast NICs, Pegasus
-uses DPDK to directly access the NIC.
-Pegasus supports transparent kernel bypass
-for unmodified binaries by implementing core OS services in user space, such
-as scheduling and memory management, thus
-removing the kernel from the critical path.
-Our experiments on a range of real-world applications show that,
-compared with Linux,
-Pegasus improves the throughput
-by 19% to 33% for local communication
-and 178% to 442% for remote communication,
-without application changes.
-Furthermore, Pegasus achieves 222% higher
-throughput than Linux for co-located, IO-intensive applications that
-require both local and remote communication, with each communication
-optimization contributing significantly."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/vahldiek-2025/">
+  <meta property="og:title" content="Proving Attributes about Confidential Compute Services with Validation and Endorsement Services | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Trusted Execution Environments (TEEs) have become an essential mechanism for securing cloud deployments, more so recently for confidential AI applications. TEEs provide remote attestation of the TEE state through secure hashes signed with device-specific cryptographic keys, but the interpretation and guarantees of these hashes, such as the link between source code and runtime attestation values, need to be established separately. Current methods rely on ad-hoc systems to track this semantic information, which establish these attributes at build time because they are difficult to determine at runtime. This paper proposes an emerging idea to address this limitation through endorsement services, an abstraction for asserting the authenticity and enabling the discovery of attributes about trusted services. Endorsement services also facilitate the dynamic discovery of trusted services that meet specified properties. This abstraction ultimately aims to enhance the flexibility and trustworthiness of confidential compute deployments."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2024-09-21T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2025-04-28T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2025-03-30T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2025-07-04T00:00:00&#43;00:00">
   
 
   
@@ -227,7 +155,7 @@ optimization contributing significantly."><meta property="og:image" content="htt
 
   
 
-  <title>Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication | Anjo Vahldiek-Oberwagner</title>
+  <title>Proving Attributes about Confidential Compute Services with Validation and Endorsement Services | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -452,7 +380,7 @@ optimization contributing significantly."><meta property="og:image" content="htt
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</h1>
+  <h1 itemprop="name">Proving Attributes about Confidential Compute Services with Validation and Endorsement Services</h1>
 
   
 
@@ -466,22 +394,10 @@ optimization contributing significantly."><meta property="og:image" content="htt
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Dinglan Peng</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Congyu Liu</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Tapti Palit</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Mona Vij</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Pedro Fonseca</span>
+      <span itemprop="name">Marcela S. Melara</span>
     </span>
     
   </div>
@@ -489,9 +405,9 @@ optimization contributing significantly."><meta property="og:image" content="htt
 
   <span class="article-date">
     
-    <meta content="2025-03-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-    <time datetime="2025-03-30 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-      Mar 30, 2025
+    <meta content="2025-07-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2025-07-04 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jul 4, 2025
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -542,29 +458,15 @@ optimization contributing significantly."><meta property="og:image" content="htt
 
 
   
-    
-  
 
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://dl.acm.org/doi/pdf/10.1145/3689031.3696083" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/peng-2025/peng-2025.bib">
+        data-filename="/publication/vahldiek-2025/vahldiek-2025.bib">
   Cite
 </button>
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/rssys/pegasus" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -595,44 +497,7 @@ optimization contributing significantly."><meta property="og:image" content="htt
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text"><p>Modern software architectures in cloud computing are highly reliant
-on interconnected local and remote services.
-Popular architectures, such as the service mesh,
-rely on the use of independent services or sidecars for
-a single application. While such modular approaches
-simplify application development and deployment,
-they also introduce significant communication overhead since
-now even local communication that is handled by the kernel
-becomes a performance bottleneck. This problem has been
-identified and partially solved for remote communication over
-fast NICs through the use of kernel-bypass data plane systems.
-However, existing kernel-bypass
-mechanisms challenge their practical deployment by either
-requiring code modification or supporting only a small subset of the network
-interface.</p>
-
-<p>In this paper, we propose Pegasus, a framework for transparent
-kernel bypass for local and remote communication.
-By transparently fusing multiple applications into a single
-process, Pegasus provides an in-process <em>fast path</em> to
-bypass the kernel for local communication.
-To accelerate remote communication over fast NICs, Pegasus
-uses DPDK to directly access the NIC.
-Pegasus supports transparent kernel bypass
-for unmodified binaries by implementing core OS services in user space, such
-as scheduling and memory management, thus
-removing the kernel from the critical path.
-Our experiments on a range of real-world applications show that,
-compared with Linux,
-Pegasus improves the throughput
-by 19% to 33% for local communication
-and 178% to 442% for remote communication,
-without application changes.
-Furthermore, Pegasus achieves 222% higher
-throughput than Linux for co-located, IO-intensive applications that
-require both local and remote communication, with each communication
-optimization contributing significantly.</p>
-</p>
+    <p class="pub-abstract" itemprop="text">Trusted Execution Environments (TEEs) have become an essential mechanism for securing cloud deployments, more so recently for confidential AI applications. TEEs provide remote attestation of the TEE state through secure hashes signed with device-specific cryptographic keys, but the interpretation and guarantees of these hashes, such as the link between source code and runtime attestation values, need to be established separately. Current methods rely on ad-hoc systems to track this semantic information, which establish these attributes at build time because they are difficult to determine at runtime. This paper proposes an emerging idea to address this limitation through endorsement services, an abstraction for asserting the authenticity and enabling the discovery of attributes about trusted services. Endorsement services also facilitate the dynamic discovery of trusted services that meet specified properties. This abstraction ultimately aims to enhance the flexibility and trustworthiness of confidential compute deployments.</p>
     
 
     
@@ -661,7 +526,7 @@ optimization contributing significantly.</p>
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Proceedings of the ACM European Conference on Computer Systems (EuroSys)</em></div>
+          <div class="col-12 col-md-9"><em>Proceedings of the Workshop on System Software for Trusted Execution</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -677,7 +542,7 @@ optimization contributing significantly.</p>
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            March, 2025
+            July, 2025
           </div>
         </div>
       </div>

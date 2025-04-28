@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Proving Attributes about Confidential Compute Services with Validation and Endorsement Services</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2025/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enabling Cloud-Scale Distributed Capabilities</title>
+      <link>https://vahldiek.github.io/publication/white-2025/</link>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/white-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</title>
       <link>https://vahldiek.github.io/publication/peng-2025/</link>
       <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/koshiba-2023-tdcof/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Method and apparatus for multi-dimensional attestation for a software application</title>
-      <link>https://vahldiek.github.io/publication/melara-2023-attest/</link>
-      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/melara-2023-attest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ATTESTATION OF OPERATIONS BY TOOL CHAINS</title>
-      <link>https://vahldiek.github.io/publication/scarlata-2022-atttool/</link>
-      <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/scarlata-2022-atttool/</guid>
       <description></description>
     </item>
     

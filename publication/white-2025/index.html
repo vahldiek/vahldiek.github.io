@@ -15,47 +15,12 @@
   
     
   
-  <meta name="description" content="Modern software architectures in cloud computing are highly reliant
-on interconnected local and remote services.
-Popular architectures, such as the service mesh,
-rely on the use of independent services or sidecars for
-a single application. While such modular approaches
-simplify application development and deployment,
-they also introduce significant communication overhead since
-now even local communication that is handled by the kernel
-becomes a performance bottleneck. This problem has been
-identified and partially solved for remote communication over
-fast NICs through the use of kernel-bypass data plane systems.
-However, existing kernel-bypass
-mechanisms challenge their practical deployment by either
-requiring code modification or supporting only a small subset of the network
-interface.
-
-In this paper, we propose Pegasus, a framework for transparent
-kernel bypass for local and remote communication.
-By transparently fusing multiple applications into a single
-process, Pegasus provides an in-process *fast path* to
-bypass the kernel for local communication.
-To accelerate remote communication over fast NICs, Pegasus
-uses DPDK to directly access the NIC.
-Pegasus supports transparent kernel bypass
-for unmodified binaries by implementing core OS services in user space, such
-as scheduling and memory management, thus
-removing the kernel from the critical path.
-Our experiments on a range of real-world applications show that,
-compared with Linux,
-Pegasus improves the throughput
-by 19% to 33% for local communication
-and 178% to 442% for remote communication,
-without application changes.
-Furthermore, Pegasus achieves 222% higher
-throughput than Linux for co-located, IO-intensive applications that
-require both local and remote communication, with each communication
-optimization contributing significantly.">
+  <meta name="description" content="Modern applications rely on service-oriented architectures to increase development productivity, cost-effectiveness, and scalability. However, the growing complexity of cloud stacks, driven by multi-tenancy, multi-party computations, and dynamic service collaboration, introduces security risks stemming from over-privileged access. While enforcing the principle of least authority (PoLA) mitigates these risks, implementing PoLA at scale is prohibitively complex and costly. If we instead look at existing access control systems, such as RBAC [25] or ABAC [36] at the application layer or security groups [14] at the network layer, they rely on externally defined policies, provide limited abstractions, and require retrofitting security onto applications, leading to over-privilege.
+Conversely, capability-based security offers an application-driven solution for access control, leading to tight integration of security with application semantics, and making PoLA attainable. We analyse existing capability systems and find that they fall short at cloud-scale due to limitations in performance, scalability, or fault tolerance. We present a distributed capability system that through a sharded, decentralised architecture, capability versioning, and application-defined revocability, enables microsecond-scale delegation and revocation, data center scale scalability, and fault-tolerance. Our evaluation demonstrates capability operation latency and system-wide resource consumption scale better than previous capability systems, at μ second-scale latency.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/peng-2025/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/white-2025/">
 
   
 
@@ -136,7 +101,7 @@ optimization contributing significantly.">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/publication/peng-2025/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/white-2025/">
 
   
   
@@ -151,48 +116,13 @@ optimization contributing significantly.">
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/publication/peng-2025/">
-  <meta property="og:title" content="Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="Modern software architectures in cloud computing are highly reliant
-on interconnected local and remote services.
-Popular architectures, such as the service mesh,
-rely on the use of independent services or sidecars for
-a single application. While such modular approaches
-simplify application development and deployment,
-they also introduce significant communication overhead since
-now even local communication that is handled by the kernel
-becomes a performance bottleneck. This problem has been
-identified and partially solved for remote communication over
-fast NICs through the use of kernel-bypass data plane systems.
-However, existing kernel-bypass
-mechanisms challenge their practical deployment by either
-requiring code modification or supporting only a small subset of the network
-interface.
-
-In this paper, we propose Pegasus, a framework for transparent
-kernel bypass for local and remote communication.
-By transparently fusing multiple applications into a single
-process, Pegasus provides an in-process *fast path* to
-bypass the kernel for local communication.
-To accelerate remote communication over fast NICs, Pegasus
-uses DPDK to directly access the NIC.
-Pegasus supports transparent kernel bypass
-for unmodified binaries by implementing core OS services in user space, such
-as scheduling and memory management, thus
-removing the kernel from the critical path.
-Our experiments on a range of real-world applications show that,
-compared with Linux,
-Pegasus improves the throughput
-by 19% to 33% for local communication
-and 178% to 442% for remote communication,
-without application changes.
-Furthermore, Pegasus achieves 222% higher
-throughput than Linux for co-located, IO-intensive applications that
-require both local and remote communication, with each communication
-optimization contributing significantly."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/white-2025/">
+  <meta property="og:title" content="Enabling Cloud-Scale Distributed Capabilities | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Modern applications rely on service-oriented architectures to increase development productivity, cost-effectiveness, and scalability. However, the growing complexity of cloud stacks, driven by multi-tenancy, multi-party computations, and dynamic service collaboration, introduces security risks stemming from over-privileged access. While enforcing the principle of least authority (PoLA) mitigates these risks, implementing PoLA at scale is prohibitively complex and costly. If we instead look at existing access control systems, such as RBAC [25] or ABAC [36] at the application layer or security groups [14] at the network layer, they rely on externally defined policies, provide limited abstractions, and require retrofitting security onto applications, leading to over-privilege.
+Conversely, capability-based security offers an application-driven solution for access control, leading to tight integration of security with application semantics, and making PoLA attainable. We analyse existing capability systems and find that they fall short at cloud-scale due to limitations in performance, scalability, or fault tolerance. We present a distributed capability system that through a sharded, decentralised architecture, capability versioning, and application-defined revocability, enables microsecond-scale delegation and revocation, data center scale scalability, and fault-tolerance. Our evaluation demonstrates capability operation latency and system-wide resource consumption scale better than previous capability systems, at μ second-scale latency."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2024-09-21T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2025-03-30T00:00:00&#43;00:00">
   
   <meta property="article:modified_time" content="2025-03-30T00:00:00&#43;00:00">
   
@@ -227,7 +157,7 @@ optimization contributing significantly."><meta property="og:image" content="htt
 
   
 
-  <title>Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication | Anjo Vahldiek-Oberwagner</title>
+  <title>Enabling Cloud-Scale Distributed Capabilities | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -452,7 +382,7 @@ optimization contributing significantly."><meta property="og:image" content="htt
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</h1>
+  <h1 itemprop="name">Enabling Cloud-Scale Distributed Capabilities</h1>
 
   
 
@@ -466,13 +396,16 @@ optimization contributing significantly."><meta property="og:image" content="htt
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Dinglan Peng</span>
+      <span itemprop="name">Otto White</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Congyu Liu</span>
+      <span itemprop="name">Yaoxin Jing</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Tapti Palit</span>
+      <span itemprop="name">Adrien Ghosn</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Michael Steiner</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
@@ -481,7 +414,7 @@ optimization contributing significantly."><meta property="og:image" content="htt
       <span itemprop="name">Mona Vij</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Pedro Fonseca</span>
+      <span itemprop="name">Lluis Vilanova</span>
     </span>
     
   </div>
@@ -546,25 +479,17 @@ optimization contributing significantly."><meta property="og:image" content="htt
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://dl.acm.org/doi/pdf/10.1145/3689031.3696083" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://dl.acm.org/doi/10.1145/3723851.3723854" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/peng-2025/peng-2025.bib">
+        data-filename="/publication/white-2025/white-2025.bib">
   Cite
 </button>
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/rssys/pegasus" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -595,44 +520,8 @@ optimization contributing significantly."><meta property="og:image" content="htt
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text"><p>Modern software architectures in cloud computing are highly reliant
-on interconnected local and remote services.
-Popular architectures, such as the service mesh,
-rely on the use of independent services or sidecars for
-a single application. While such modular approaches
-simplify application development and deployment,
-they also introduce significant communication overhead since
-now even local communication that is handled by the kernel
-becomes a performance bottleneck. This problem has been
-identified and partially solved for remote communication over
-fast NICs through the use of kernel-bypass data plane systems.
-However, existing kernel-bypass
-mechanisms challenge their practical deployment by either
-requiring code modification or supporting only a small subset of the network
-interface.</p>
-
-<p>In this paper, we propose Pegasus, a framework for transparent
-kernel bypass for local and remote communication.
-By transparently fusing multiple applications into a single
-process, Pegasus provides an in-process <em>fast path</em> to
-bypass the kernel for local communication.
-To accelerate remote communication over fast NICs, Pegasus
-uses DPDK to directly access the NIC.
-Pegasus supports transparent kernel bypass
-for unmodified binaries by implementing core OS services in user space, such
-as scheduling and memory management, thus
-removing the kernel from the critical path.
-Our experiments on a range of real-world applications show that,
-compared with Linux,
-Pegasus improves the throughput
-by 19% to 33% for local communication
-and 178% to 442% for remote communication,
-without application changes.
-Furthermore, Pegasus achieves 222% higher
-throughput than Linux for co-located, IO-intensive applications that
-require both local and remote communication, with each communication
-optimization contributing significantly.</p>
-</p>
+    <p class="pub-abstract" itemprop="text">Modern applications rely on service-oriented architectures to increase development productivity, cost-effectiveness, and scalability. However, the growing complexity of cloud stacks, driven by multi-tenancy, multi-party computations, and dynamic service collaboration, introduces security risks stemming from over-privileged access. While enforcing the principle of least authority (PoLA) mitigates these risks, implementing PoLA at scale is prohibitively complex and costly. If we instead look at existing access control systems, such as RBAC [25] or ABAC [36] at the application layer or security groups [14] at the network layer, they rely on externally defined policies, provide limited abstractions, and require retrofitting security onto applications, leading to over-privilege.
+Conversely, capability-based security offers an application-driven solution for access control, leading to tight integration of security with application semantics, and making PoLA attainable. We analyse existing capability systems and find that they fall short at cloud-scale due to limitations in performance, scalability, or fault tolerance. We present a distributed capability system that through a sharded, decentralised architecture, capability versioning, and application-defined revocability, enables microsecond-scale delegation and revocation, data center scale scalability, and fault-tolerance. Our evaluation demonstrates capability operation latency and system-wide resource consumption scale better than previous capability systems, at μ second-scale latency.</p>
     
 
     
@@ -661,7 +550,7 @@ optimization contributing significantly.</p>
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Proceedings of the ACM European Conference on Computer Systems (EuroSys)</em></div>
+          <div class="col-12 col-md-9"><em>Proceedings of the Workshop on Heterogeneous Composable and Disaggregated Systems</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
