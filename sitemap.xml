@@ -1,619 +1,498 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/elia-2025/</loc>
-      <lastmod>2025-07-29T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-2025/</loc>
-      <lastmod>2025-07-04T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/white-2025/</loc>
-      <lastmod>2025-03-30T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/peng-2025/</loc>
-      <lastmod>2025-03-30T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/narayan-2025/</loc>
-      <lastmod>2025-03-30T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/banerjee-2025/</loc>
-      <lastmod>2024-11-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/chrapek-2024-llmcc/</loc>
-      <lastmod>2024-10-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/constable-2024-modelintegrity/</loc>
-      <lastmod>2024-10-03T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2024-modelaccuracy/</loc>
-      <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/yang-2024-endokernel/</loc>
-      <lastmod>2024-08-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/narayan-2024/</loc>
-      <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</loc>
-      <lastmod>2024-06-25T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/sahita-2022-clonetee/</loc>
-      <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/lemay-2024-rtcall/</loc>
-      <lastmod>2024-01-04T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/yang-2023-endoprocess/</loc>
-      <lastmod>2023-12-08T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/koshiba-2023-tdcof/</loc>
-      <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/melara-2023-attest/</loc>
-      <lastmod>2023-08-23T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/scarlata-2022-atttool/</loc>
-      <lastmod>2023-05-16T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/narayan-2023/</loc>
-      <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/peng-2023/</loc>
-      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-2022-darpa/</loc>
-      <lastmod>2022-12-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/narayan-2022/</loc>
-      <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/project/meshwa/</loc>
-      <lastmod>2022-11-11T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-2022-words/</loc>
-      <lastmod>2022-11-08T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/lee-2022/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/project/artifact-eval/</loc>
-      <lastmod>2022-07-05T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/malik-2022-aehpc/</loc>
-      <lastmod>2022-06-30T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/saxena-2022-optuserv/</loc>
-      <lastmod>2022-04-21T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</loc>
-      <lastmod>2021-08-26T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/im-2021-endokernel/</loc>
-      <lastmod>2021-08-09T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</loc>
-      <lastmod>2021-04-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/sahita-2021-isomempat/</loc>
-      <lastmod>2021-04-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</loc>
-      <lastmod>2021-04-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</loc>
-      <lastmod>2021-04-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/narayan-2021/</loc>
-      <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/lee-2020-ppml/</loc>
-      <lastmod>2020-09-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</loc>
-      <lastmod>2020-09-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-2020-lss/</loc>
-      <lastmod>2020-07-02T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-2018-erim/</loc>
-      <lastmod>2019-01-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/project/guardat/</loc>
-      <lastmod>2018-12-15T00:24:47+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/project/erim/</loc>
-      <lastmod>2018-12-15T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/project/untrustedcloud/</loc>
-      <lastmod>2018-12-15T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</loc>
-      <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/krahn-2018/</loc>
-      <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/litton-2016/</loc>
-      <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/elnikety-2016/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/druschel-2015-storagelease/</loc>
-      <lastmod>2015-10-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</loc>
-      <lastmod>2015-04-17T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/vahldiek-2011/</loc>
-      <lastmod>2011-08-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication/graf-2011-verifiedwireless/</loc>
-      <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication_types/1/</loc>
-      <lastmod>2025-07-29T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication_types/10/</loc>
-      <lastmod>2022-12-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication_types/4/</loc>
-      <lastmod>2024-11-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication_types/7/</loc>
-      <lastmod>2021-04-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication_types/8/</loc>
-      <lastmod>2024-06-25T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication_types/9/</loc>
-      <lastmod>2024-10-03T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/categories/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/confidential-compute/</loc>
-      <lastmod>2018-12-15T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/faas/</loc>
-      <lastmod>2018-12-15T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/intel-mpk/</loc>
-      <lastmod>2018-12-15T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/intel-sgx/</loc>
-      <lastmod>2018-12-15T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/max-planck-institute-for-software-systems/</loc>
-      <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/project/</loc>
-      <lastmod>2022-11-11T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/publication_types/</loc>
-      <lastmod>2025-07-29T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/</loc>
-      <lastmod>2018-12-15T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/university-of-maryland/</loc>
-      <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/artifact-evaluation/</loc>
-      <lastmod>2022-07-05T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/memory-isolation/</loc>
-      <lastmod>2022-11-11T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/memory-safe-langauges/</loc>
-      <lastmod>2022-11-11T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/microservices/</loc>
-      <lastmod>2022-11-11T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/research-artifacts/</loc>
-      <lastmod>2022-07-05T00:24:42+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/secure-storage/</loc>
-      <lastmod>2018-12-15T00:24:47+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://vahldiek.github.io/tags/serverless-computing/</loc>
-      <lastmod>2022-11-11T00:24:42+01:00</lastmod>
-    </url>
-    
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/hero_carousel/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/hero/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/about/</loc>
+    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/news/</loc>
+    <lastmod>2022-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/skills/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/experience/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/publications_selected/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/projects/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/publications/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/talks_selected/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/talks/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/service/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/tags/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/awards/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/contact/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/elia-2025/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-2025/</loc>
+    <lastmod>2025-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/white-2025/</loc>
+    <lastmod>2025-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/peng-2025/</loc>
+    <lastmod>2025-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/narayan-2025/</loc>
+    <lastmod>2025-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/banerjee-2025/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/chrapek-2024-llmcc/</loc>
+    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/constable-2024-modelintegrity/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2024-modelaccuracy/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/yang-2024-endokernel/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/narayan-2024/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/lemay-2022-xaddrcc/</loc>
+    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/sahita-2022-clonetee/</loc>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/lemay-2024-rtcall/</loc>
+    <lastmod>2024-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/yang-2023-endoprocess/</loc>
+    <lastmod>2023-12-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/koshiba-2023-tdcof/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/melara-2023-attest/</loc>
+    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/scarlata-2022-atttool/</loc>
+    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/narayan-2023/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/peng-2023/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-2022-darpa/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/narayan-2022/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/project/meshwa/</loc>
+    <lastmod>2022-11-11T00:24:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-2022-words/</loc>
+    <lastmod>2022-11-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/lee-2022/</loc>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/project/artifact-eval/</loc>
+    <lastmod>2022-07-05T00:24:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/malik-2022-aehpc/</loc>
+    <lastmod>2022-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/saxena-2022-optuserv/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/lemay-2021-ctrlsyscallpat/</loc>
+    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/im-2021-endokernel/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-2021-ittkgp/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/sahita-2021-isomempat/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-redlatpat/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2021-scalableattestpat/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/narayan-2021/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/lee-2020-ppml/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2020-secdev/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-2020-lss/</loc>
+    <lastmod>2020-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-2018-erim/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/project/guardat/</loc>
+    <lastmod>2018-12-15T00:24:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/project/erim/</loc>
+    <lastmod>2018-12-15T00:24:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/project/untrustedcloud/</loc>
+    <lastmod>2018-12-15T00:24:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-2018-thesis/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/krahn-2018/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/post/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/talk/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/litton-2016/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/elnikety-2016/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/druschel-2015-storagelease/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-oberwagner-2015/</loc>
+    <lastmod>2015-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/vahldiek-2011/</loc>
+    <lastmod>2011-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication/graf-2011-verifiedwireless/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication_types/1/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication_types/10/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication_types/4/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication_types/7/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication_types/8/</loc>
+    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication_types/9/</loc>
+    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/confidential-compute/</loc>
+    <lastmod>2018-12-15T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/faas/</loc>
+    <lastmod>2018-12-15T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/home/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/intel-mpk/</loc>
+    <lastmod>2018-12-15T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/intel-sgx/</loc>
+    <lastmod>2018-12-15T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/max-planck-institute-for-software-systems/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/project/</loc>
+    <lastmod>2022-11-11T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/publication_types/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/</loc>
+    <lastmod>2018-12-15T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/university-of-maryland/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/artifact-evaluation/</loc>
+    <lastmod>2022-07-05T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/memory-isolation/</loc>
+    <lastmod>2022-11-11T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/memory-safe-langauges/</loc>
+    <lastmod>2022-11-11T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/microservices/</loc>
+    <lastmod>2022-11-11T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/research-artifacts/</loc>
+    <lastmod>2022-07-05T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/secure-storage/</loc>
+    <lastmod>2018-12-15T00:24:47+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vahldiek.github.io/tags/serverless-computing/</loc>
+    <lastmod>2022-11-11T00:24:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
   
 </urlset>
