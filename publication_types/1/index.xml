@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Recursive Attestation to Scale Trust in Modern Heterogeneous Cloud Architecture</title>
+      <link>https://vahldiek.github.io/publication/jing-2025/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/jing-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Lessons Learned from Five Years of Artifact Evaluations at EuroSys</title>

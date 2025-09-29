@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Using Recursive Attestation to Scale Trust in Modern Heterogeneous Cloud Architecture</title>
+      <link>https://vahldiek.github.io/publication/jing-2025/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/jing-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lessons Learned from Five Years of Artifact Evaluations at EuroSys</title>
       <link>https://vahldiek.github.io/publication/elia-2025/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/lemay-2024-rtcall/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Endoprocess: Programmable and Extensible Subprocess Isolation</title>
-      <link>https://vahldiek.github.io/publication/yang-2023-endoprocess/</link>
-      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/yang-2023-endoprocess/</guid>
       <description></description>
     </item>
     

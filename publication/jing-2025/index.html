@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -17,11 +15,13 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="
+Modern cloud infrastructures are increasingly complex, driven by heterogeneity, disaggregation, and dynamic service composition—exposing critical limits in traditional attestation models. These models struggle to scale when trust must span multiple domains and elastic services. We present scale-out attestation, a paradigm decoupling platform trust verification from app-level attestation. Our design introduces a recursive attestation framework leveraging abstract service identities and trusted deployment workflows: a single infrastructure agent verifies platforms via abstract policies, while services derive instance-agnostic identities enabling secure recursive dependency attestation. We implement the system on FractOS, a distributed OS for disaggregated data centers, and plan to extend Confidential Containers for practical deployment. Evaluation shows strong security with minimal overhead, enabling scalable confidential computing across heterogeneous and dynamic cloud environments.
+">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication_types/1/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/jing-2025/">
 
   
 
@@ -94,15 +94,15 @@
   
 
   
-  <link rel="alternate" href="https://vahldiek.github.io/publication_types/1/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
-  <link rel="feed" href="https://vahldiek.github.io/publication_types/1/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="alternate" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="feed" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/publication_types/1/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/jing-2025/">
 
   
   
@@ -117,12 +117,16 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/publication_types/1/">
-  <meta property="og:title" content="1 | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/jing-2025/">
+  <meta property="og:title" content="Using Recursive Attestation to Scale Trust in Modern Heterogeneous Cloud Architecture | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="
+Modern cloud infrastructures are increasingly complex, driven by heterogeneity, disaggregation, and dynamic service composition—exposing critical limits in traditional attestation models. These models struggle to scale when trust must span multiple domains and elastic services. We present scale-out attestation, a paradigm decoupling platform trust verification from app-level attestation. Our design introduces a recursive attestation framework leveraging abstract service identities and trusted deployment workflows: a single infrastructure agent verifies platforms via abstract policies, while services derive instance-agnostic identities enabling secure recursive dependency attestation. We implement the system on FractOS, a distributed OS for disaggregated data centers, and plan to extend Confidential Containers for practical deployment. Evaluation shows strong security with minimal overhead, enabling scalable confidential computing across heterogeneous and dynamic cloud environments.
+"><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2023-03-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2025-09-27T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2025-10-01T00:00:00&#43;00:00">
   
 
   
@@ -155,7 +159,7 @@
 
   
 
-  <title>1 | Anjo Vahldiek-Oberwagner</title>
+  <title>Using Recursive Attestation to Scale Trust in Modern Heterogeneous Cloud Architecture | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -359,8 +363,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -377,142 +382,206 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Using Recursive Attestation to Scale Trust in Modern Heterogeneous Cloud Architecture</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Yaoxin Jing</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Michael Steiner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Mona Vij</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Lluis Vilanova</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2025-10-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2025-10-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Oct 1, 2025
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">1</h1>
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.doc.ic.ac.uk/~lvilanov/publications/files/apsys25_idcaps.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/jing-2025/jing-2025.bib">
+  Cite
+</button>
+
+
+
+
 
   
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/publication/narayan-2023/">Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</a></h2>
-    <div class="article-style">
-      
-      We introduce Hardware-assisted Fault Isolation (HFI), a simple
-extension to existing processors to support secure, flexible, and efficient
-in-process isolation. HFI addresses the limitations of existing software-based
-isolation (SFI) systems …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/peng-2023/">uSwitch: Fast Kernel Context Isolation with Implicit Context Switches</a></h2>
-    <div class="article-style">
-      
-      Isolating application components is crucial to limit the exposure of sensitive data and code to vulnerabilities in the untrusted components. Process-based isolation is the de facto isolation used in practice, e.g., web browsers. However, it incurs …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/narayan-2022/">Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern x86</a></h2>
-    <div class="article-style">
-      
-      WebAssembly (Wasm) and similar Software-based Fault Isolation
-(SFI) systems enable secure sandboxing by virtualizing process address space.
-They accomplish this by: (1) adding a base address to the operand of all
-load/store instructions to select …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/vahldiek-2022-words/">MeSHwA: The case for a Memory-Safe Software and Hardware Architecture for Serverless Computing</a></h2>
-    <div class="article-style">
-      
-      Motivated by developer productivity, serverless computing, and
-microservices have become the de facto development model in the cloud.
-Microservices decompose monolithic applications into separate functional units
-deployed individually. This …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/lee-2022/">Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing</a></h2>
-    <div class="article-style">
-      
-      Hardware enclaves rely on a disjoint memory model, which maps each physical address to an enclave to achieve strong memory isolation. However, this severely limits the performance and programmability of enclave programs. While some prior work …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/malik-2022-aehpc/">Expanding the Scope of Artifact Evaluation at HPC Conferences: Experience of SC21</a></h2>
-    <div class="article-style">
-      
-      A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/narayan-2021/">Swivel: Hardening WebAssembly against Spectre</a></h2>
-    <div class="article-style">
-      
-      We describe Swivel, a new compiler framework for hardening
-WebAssembly (Wasm) against Spectre attacks. Outside the browser, Wasm has become
-a popular lightweight, in-process sandbox and is, for example, used in
-production to isolate different …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/vahldiek-2018-erim/">ERIM: Secure, Efficient In-Process Isolation with Memory Protection Keys</a></h2>
-    <div class="article-style">
-      
-      Isolating sensitive data and state can increase the security and robustness of many applications. Examples include protecting cryptographic keys against exploits like OpenSSL's Heartbleed bug or protecting a language runtime from native libraries …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/krahn-2018/">Pesos: Policy Enhanced Secure Object store</a></h2>
-    <div class="article-style">
-      
-      Third-party storage services pose the risk of integrity and confidentiality violations as the current storage policy enforcement mechanisms are spread across many layers in the system
-stack. To mitigate these security vulnerabilities, we present …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/litton-2016/">Light-Weight Contexts: An OS Abstraction for Safety and Performance</a></h2>
-    <div class="article-style">
-      
-      We introduce a new OS abstraction—light-weight con- texts (lwCs)—that provides independent units of protec- tion, privilege, and execution state within a process. A process may include several lwCs, each with possibly different views of memory, file …
-      
-    </div>
-  </div>
-  
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Modern cloud infrastructures are increasingly complex, driven by heterogeneity, disaggregation, and dynamic service composition—exposing critical limits in traditional attestation models. These models struggle to scale when trust must span multiple domains and elastic services. We present scale-out attestation, a paradigm decoupling platform trust verification from app-level attestation. Our design introduces a recursive attestation framework leveraging abstract service identities and trusted deployment workflows: a single infrastructure agent verifies platforms via abstract policies, while services derive instance-agnostic identities enabling secure recursive dependency attestation. We implement the system on FractOS, a distributed OS for disaggregated data centers, and plan to extend Confidential Containers for practical deployment. Evaluation shows strong security with minimal overhead, enabling scalable confidential computing across heterogeneous and dynamic cloud environments.</p>
+    
 
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/publication_types/1/">&laquo;</a></li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference/Workshop paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
-    
-    <li class="page-item"><a class="page-link" href="/publication_types/1/page/3/">&raquo;</a></li>
-    
-  </ul>
-</nav>
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the Asia-Pacific Workshop on Systems (ApSys)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            October, 2025
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
 </div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
@@ -623,6 +692,4 @@ stack. To mitigate these security vulnerabilities, we present …
 
   </body>
 </html>
-
-
 
