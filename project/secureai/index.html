@@ -15,11 +15,11 @@
   
     
   
-  <meta name="description" content="Lift and shift unmodified applications into Intel SGX enclaves to shield them in an untrusted cloud. ">
+  <meta name="description" content="Securing AI systems end-to-end — from protecting model confidentiality and integrity to defending compound AI pipelines against adversarial threats using trusted execution environments and systems security techniques.">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/project/untrustedcloud/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/project/secureai/">
 
   
 
@@ -100,7 +100,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/project/untrustedcloud/">
+  <link rel="canonical" href="https://vahldiek.github.io/project/secureai/">
 
   
   
@@ -115,14 +115,14 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/project/untrustedcloud/">
-  <meta property="og:title" content="Shielding Applications in an untrusted Cloud | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="Lift and shift unmodified applications into Intel SGX enclaves to shield them in an untrusted cloud. "><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/project/secureai/">
+  <meta property="og:title" content="Secure AI | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Securing AI systems end-to-end — from protecting model confidentiality and integrity to defending compound AI pipelines against adversarial threats using trusted execution environments and systems security techniques."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-12-15T00:24:42&#43;01:00">
+  <meta property="article:published_time" content="2024-01-01T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2018-12-15T00:24:42&#43;01:00">
+  <meta property="article:modified_time" content="2024-01-01T00:00:00&#43;01:00">
   
 
   
@@ -155,7 +155,7 @@
 
   
 
-  <title>Shielding Applications in an untrusted Cloud | Anjo Vahldiek-Oberwagner</title>
+  <title>Secure AI | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -381,7 +381,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Shielding Applications in an untrusted Cloud</h1>
+  <h1 itemprop="name">Secure AI</h1>
 
   
 
@@ -399,9 +399,9 @@
 
   <span class="article-date">
     
-    <meta content="2018-12-15 00:24:42 &#43;0100 &#43;0100" itemprop="datePublished">
-    <time datetime="2018-12-15 00:24:42 &#43;0100 &#43;0100" itemprop="dateModified">
-      Dec 15, 2018
+    <meta content="2024-01-01 00:00:00 &#43;0100 &#43;0100" itemprop="datePublished">
+    <time datetime="2024-01-01 00:00:00 &#43;0100 &#43;0100" itemprop="dateModified">
+      Jan 1, 2024
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -448,17 +448,24 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Computing on secret data is challenging with today’s cloud service provider
-(CSP) offerings. CSP have full visibility into their client’s workloads and data
-while run in a VM or container and shielding against other tenants. On the
-contrary, confidential computing (CC) techniques (e.g., Intel Software Guard
-Extension (SGX)) offer a reverse sandbox. These techniques shield the workload
-and data from accesses by the underlying system software (e.g., OS or VMM) and
-hardware attacks. Thus, preventing CSPs from accessing secrets. In addition, CC
-provides remote attestation to verify the integrity of applications.</p>
+      <p>AI and machine learning systems are increasingly deployed in cloud environments
+where they face threats to both the confidentiality of models and data, and the
+integrity of their computations. This project focuses on securing AI systems
+through a systems perspective — combining trusted execution environments (TEEs),
+hardware-based isolation, and principled security architectures.</p>
 
-<p>Projects in this space focus on popular cloud deployment scenarios and automate
-the process to deploy applications in confidential compute enclaves.</p>
+<p>Our work spans several complementary directions: we developed practical
+frameworks for privacy-preserving machine learning using Intel SGX, enabling
+unmodified PyTorch applications to run with encrypted models and data in
+untrusted clouds. We extended this to foundation model deployments, demonstrating
+less than 10% overhead for full Llama 2 inference pipelines inside Intel SGX and
+TDX enclaves. We systematically analyzed the threat landscape of compound AI
+systems — multi-component pipelines combining foundation models with retrieval,
+tool use, and agents — identifying how software-hardware attack gadgets can be
+composed for adversarial threat amplification. To address model supply chain
+integrity, we developed techniques for verifying model integrity and accuracy
+within trusted execution environments, and proposed endorsement services that
+enable dynamic discovery and attestation of trusted AI services.</p>
 
     </div>
 
@@ -467,9 +474,13 @@ the process to deploy applications in confidential compute enclaves.</p>
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/intel-sgx/">Intel SGX</a>
+  <a class="badge badge-light" href="/tags/ai-security/">AI security</a>
   
-  <a class="badge badge-light" href="/tags/confidential-compute/">Confidential Compute</a>
+  <a class="badge badge-light" href="/tags/confidential-computing/">confidential computing</a>
+  
+  <a class="badge badge-light" href="/tags/machine-learning/">machine learning</a>
+  
+  <a class="badge badge-light" href="/tags/foundation-models/">foundation models</a>
   
 </div>
 
@@ -494,10 +505,10 @@ the process to deploy applications in confidential compute enclaves.</p>
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/burke-2026/" itemprop="name">It&#39;s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications</a>
+  <a href="/publication/banerjee-2026/" itemprop="name">Cascade: Composing Software-Hardware Attack Gadgets for Adversarial Threat Amplification in Compound AI Systems</a>
   <div itemprop="author">
-    Quinn Burke, Anjo Vahldiek-Oberwagner, Michael Swift, Patrick McDaniel</div>
-  IEEE S&amp;P,
+    Sarbartha Banerjee, Prateek Sahu, Anjo Vahldiek-Oberwagner, Jose Sanchez Vicarte, Mohit Tiwari</div>
+  <em>arXiv</em>,
   2026.
   <p>
 
@@ -512,184 +523,14 @@ the process to deploy applications in confidential compute enclaves.</p>
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2511.13641" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2603.12023" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/burke-2026/burke-2026.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-</p>
-</div>
-
-          
-        
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/jing-2025/" itemprop="name">Using Recursive Attestation to Scale Trust in Modern Heterogeneous Cloud Architecture</a>
-  <div itemprop="author">
-    Yaoxin Jing, Michael Steiner, Anjo Vahldiek-Oberwagner, Mona Vij, Lluis Vilanova</div>
-  ApSys,
-  2025.
-  <p>
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.doc.ic.ac.uk/~lvilanov/publications/files/apsys25_idcaps.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/jing-2025/jing-2025.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-</p>
-</div>
-
-          
-        
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/vahldiek-2025/" itemprop="name">Proving Attributes about Confidential Compute Services with Validation and Endorsement Services</a>
-  <div itemprop="author">
-    Anjo Vahldiek-Oberwagner, Marcela S. Melara</div>
-  SysTEX,
-  2025.
-  <p>
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/systex25-ves.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/vahldiek-2025/vahldiek-2025.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/systex25-ves-slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-</p>
-</div>
-
-          
-        
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/white-2025/" itemprop="name">Enabling Cloud-Scale Distributed Capabilities</a>
-  <div itemprop="author">
-    Otto White, Yaoxin Jing, Adrien Ghosn, Michael Steiner, Anjo Vahldiek-Oberwagner, Mona Vij, Lluis Vilanova</div>
-  HCDS,
-  2025.
-  <p>
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dl.acm.org/doi/10.1145/3723851.3723854" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/white-2025/white-2025.bib">
+        data-filename="/publication/banerjee-2026/banerjee-2026.bib">
   Cite
 </button>
 
@@ -834,11 +675,11 @@ the process to deploy applications in confidential compute enclaves.</p>
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/koshiba-2023-tdcof/" itemprop="name">Trusted Heterogeneous Disaggregated Architectures</a>
+  <a href="/publication/constable-2024-modelintegrity/" itemprop="name">METHODS AND APPARATUS TO VERIFY THE INTEGRITY OF A MODEL</a>
   <div itemprop="author">
-    Atsushi Koshiba, Felix Gust, Julian Pritzi, Anjo Vahldiek-Oberwagner, Nuno Santos, Pramod Bhatotia</div>
-  ACM SIGOPS Asia-Pacific Workshop on Systems (APSys),
-  2023.
+    Scott Douglas Constable, Marcin Andrzej Chrapek, Marcin Spoczynski, Cory Cornelius, Mona Vij, Anjo Lucas Vahldiek-Oberwagner</div>
+  <em>US Patent App. 18 / 676,413</em>,
+  2024.
   <p>
 
 
@@ -852,14 +693,14 @@ the process to deploy applications in confidential compute enclaves.</p>
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dse.in.tum.de/wp-content/uploads/2023/07/tdos_apsys23_rev2.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.freepatentsonline.com/y2024/0330466.html" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/koshiba-2023-tdcof/koshiba-2023-tdcof.bib">
+        data-filename="/publication/constable-2024-modelintegrity/constable-2024-modelintegrity.bib">
   Cite
 </button>
 
@@ -888,11 +729,11 @@ the process to deploy applications in confidential compute enclaves.</p>
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/lee-2022/" itemprop="name">Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing</a>
+  <a href="/publication/vahldiek-oberwagner-2024-modelaccuracy/" itemprop="name">Artificial intelligence model accuracy validation</a>
   <div itemprop="author">
-    Dayeol Lee, Kevin Cheang, Alexander Thomas, Catherine Lu, Pranav Gaddamadugu, Anjo Vahldiek-Oberwagner, Mona Vij, Dawn Song, Sanjit A. Seshia, Krste Asanović</div>
-  ACM CCS,
-  2022.
+    Anjo Lucas Vahldiek-Oberwagner, Marcin Andrzej Chrapek, Scott Constable</div>
+  <em>US Patent App. 18 / 665,188</em>,
+  2024.
   <p>
 
 
@@ -906,14 +747,14 @@ the process to deploy applications in confidential compute enclaves.</p>
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3548606.3560595" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://patents.google.com/patent/US20240305465A1/en" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/lee-2022/lee-2022.bib">
+        data-filename="/publication/vahldiek-oberwagner-2024-modelaccuracy/vahldiek-oberwagner-2024-modelaccuracy.bib">
   Cite
 </button>
 
@@ -988,134 +829,6 @@ the process to deploy applications in confidential compute enclaves.</p>
 
 
 
-
-
-
-
-</p>
-</div>
-
-          
-        
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/vahldiek-oberwagner-2020-secdev/" itemprop="name">Tutorial: Graphene: Confidential Computing for Unmodified Linux Applications</a>
-  <div itemprop="author">
-    Anjo Vahldiek-Oberwagner, Chia-Che Tsai, Dmitrii Kuvaiskii, Don Porter</div>
-  <em>IEEE Secure Development Conference (SecDev)</em>,
-  2020.
-  <p>
-
-
-
-
-
-
-
-  
-
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/vahldiek-oberwagner-2020-secdev/vahldiek-oberwagner-2020-secdev.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/playlist?list=PL0pnQSBQ3CEj4ur0wI8oKEx0315VJthh_" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-</p>
-</div>
-
-          
-        
-          
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/vahldiek-2020-lss/" itemprop="name">Automatically Securing Linux Application Containers in Untrusted Clouds</a>
-  <div itemprop="author">
-    Anjo Vahldiek-Oberwagner, Dmitrii Kuvaiskii</div>
-  <em>Linux Security Summit</em>,
-  2020.
-  <p>
-
-
-
-
-
-
-
-  
-
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/vahldiek-2020-lss/vahldiek-2020-lss.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://static.sched.com/hosted_files/lssna2020/71/wo-narration-lss2020-shielding-containers-in-cloud.pptx" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/I8p9sLFr-GI" target="_blank" rel="noopener">
-  Video
-</a>
 
 
 

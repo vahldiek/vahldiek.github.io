@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 15 Dec 2018 00:24:42 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AI security</title>
+      <link>https://vahldiek.github.io/tags/ai-security/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/ai-security/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Confidential Compute</title>
@@ -72,6 +81,33 @@
       <pubDate>Tue, 05 Jul 2022 00:24:42 +0100</pubDate>
       
       <guid>https://vahldiek.github.io/tags/artifact-evaluation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>confidential computing</title>
+      <link>https://vahldiek.github.io/tags/confidential-computing/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/confidential-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foundation models</title>
+      <link>https://vahldiek.github.io/tags/foundation-models/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/foundation-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://vahldiek.github.io/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0100</pubDate>
+      
+      <guid>https://vahldiek.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
