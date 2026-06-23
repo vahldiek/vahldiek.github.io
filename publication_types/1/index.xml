@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems</title>
+      <link>https://vahldiek.github.io/publication/vahldiek-2026/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/vahldiek-2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>It&#39;s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications</title>
@@ -36,15 +45,6 @@
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/elia-2025/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems</title>
-      <link>https://vahldiek.github.io/publication/vahldiek-2026/</link>
-      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/vahldiek-2026/</guid>
       <description></description>
     </item>
     
