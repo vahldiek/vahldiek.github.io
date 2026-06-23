@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -17,11 +15,31 @@
   
     
   
-  <meta name="description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems.">
+  <meta name="description" content="Artifact evaluation (AE) has become a cornerstone of reproducible research in
+computer science, with dozens of security and systems conferences running formal
+AE processes. Yet the resulting data remains fragmented, as outcomes are
+scattered across venue-specific, inconsistent websites, lacking machine-readable
+metadata and cross-venue aggregation. This prevents the community from
+answering fundamental questions about AE adoption trends, institutional
+participation, evaluator workload and retention, and AE sustainability at scale.
+It also breaks the creation--evaluation--reuse loop: no search by, e.g., topic, exists
+across security and systems artifacts, limiting artifact discovery and reuse.
+
+We present ReproDB, an open-source automated pipeline that scrapes AE results,
+committees, author metadata, and repository statistics from 13 security
+and systems conferences (2017-2026) and homogenizes them into a unified dataset.
+Building on this foundation, the platform enables three capabilities: (1)~the
+first cross-venue analysis of AE, revealing AE health challenges and
+open-science policies as the strongest lever for participation; (2)~a combined
+metric that captures both artifact creation and AE committee service,
+visualizing reproducibility labor; and (3)~the first cross-venue artifact search
+engine, closing the creation--evaluation--reuse loop by enabling discovery by
+topic, author, institution, or venue.
+">
   <meta name="keywords" content="Anjo Vahldiek, Anjo Vahldiek-Oberwagner, ERIM, Guardat">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication_types/1/">
+  <link rel="alternate" hreflang="en-us" href="https://vahldiek.github.io/publication/vahldiek-2026/">
 
   
 
@@ -94,15 +112,15 @@
   
 
   
-  <link rel="alternate" href="https://vahldiek.github.io/publication_types/1/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
-  <link rel="feed" href="https://vahldiek.github.io/publication_types/1/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="alternate" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
+  <link rel="feed" href="https://vahldiek.github.io/index.xml" type="application/rss+xml" title="Anjo Vahldiek-Oberwagner">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://vahldiek.github.io/publication_types/1/">
+  <link rel="canonical" href="https://vahldiek.github.io/publication/vahldiek-2026/">
 
   
   
@@ -117,12 +135,34 @@
   <meta property="twitter:creator" content="@ovahldy">
   
   <meta property="og:site_name" content="Anjo Vahldiek-Oberwagner">
-  <meta property="og:url" content="https://vahldiek.github.io/publication_types/1/">
-  <meta property="og:title" content="1 | Anjo Vahldiek-Oberwagner">
-  <meta property="og:description" content="I’m interested in analyzing, desiging, building and evaluating computer systems in particular secure systems."><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
+  <meta property="og:url" content="https://vahldiek.github.io/publication/vahldiek-2026/">
+  <meta property="og:title" content="ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems | Anjo Vahldiek-Oberwagner">
+  <meta property="og:description" content="Artifact evaluation (AE) has become a cornerstone of reproducible research in
+computer science, with dozens of security and systems conferences running formal
+AE processes. Yet the resulting data remains fragmented, as outcomes are
+scattered across venue-specific, inconsistent websites, lacking machine-readable
+metadata and cross-venue aggregation. This prevents the community from
+answering fundamental questions about AE adoption trends, institutional
+participation, evaluator workload and retention, and AE sustainability at scale.
+It also breaks the creation--evaluation--reuse loop: no search by, e.g., topic, exists
+across security and systems artifacts, limiting artifact discovery and reuse.
+
+We present ReproDB, an open-source automated pipeline that scrapes AE results,
+committees, author metadata, and repository statistics from 13 security
+and systems conferences (2017-2026) and homogenizes them into a unified dataset.
+Building on this foundation, the platform enables three capabilities: (1)~the
+first cross-venue analysis of AE, revealing AE health challenges and
+open-science policies as the strongest lever for participation; (2)~a combined
+metric that captures both artifact creation and AE committee service,
+visualizing reproducibility labor; and (3)~the first cross-venue artifact search
+engine, closing the creation--evaluation--reuse loop by enabling discovery by
+topic, author, institution, or venue.
+"><meta property="og:image" content="https://vahldiek.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2026-01-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2025-07-20T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2025-06-21T00:00:00&#43;00:00">
   
 
   
@@ -155,7 +195,7 @@
 
   
 
-  <title>1 | Anjo Vahldiek-Oberwagner</title>
+  <title>ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems | Anjo Vahldiek-Oberwagner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -359,8 +399,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -377,140 +418,214 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">1</h1>
+
+<div class="article-metadata">
 
   
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Anjo Vahldiek-Oberwagner</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Marton Bognar</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Salvatore Signorello</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2025-06-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2025-06-21 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jun 21, 2025
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Anjo Vahldiek-Oberwagner">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/vahldiek-2026/vahldiek-2026.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/publication/burke-2026/">It&#39;s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications</a></h2>
-    <div class="article-style">
-      
-       Replay and rollback attacks threaten cloud application integrity by reintroducing authentic yet stale data through an untrusted storage interface to compromise application decision-making. Prior security frameworks mitigate these attacks by …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/jing-2025/">Using Recursive Attestation to Scale Trust in Modern Heterogeneous Cloud Architecture</a></h2>
-    <div class="article-style">
-      
-      
-Modern cloud infrastructures are increasingly complex, driven by heterogeneity, disaggregation, and dynamic service composition—exposing critical limits in traditional attestation models. These models struggle to scale when trust must span multiple …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/elia-2025/">Lessons Learned from Five Years of Artifact Evaluations at EuroSys</a></h2>
-    <div class="article-style">
-      
-      Artifact Evaluation (“AE”) is now an accepted practice in the
-systems community. However, AE processes are inconsistent across venues and even
-across different editions of the same venue. AE processes regularly encounter
-the same problems across …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/vahldiek-2025/">Proving Attributes about Confidential Compute Services with Validation and Endorsement Services</a></h2>
-    <div class="article-style">
-      
-      Trusted Execution Environments (TEEs) have become an essential mechanism for securing cloud deployments, more so recently for confidential AI applications. TEEs provide remote attestation of the TEE state through secure hashes signed with …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/vahldiek-2026/">ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems</a></h2>
-    <div class="article-style">
-      
-      Artifact evaluation (AE) has become a cornerstone of reproducible research in
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text"><p>Artifact evaluation (AE) has become a cornerstone of reproducible research in
 computer science, with dozens of security and systems conferences running formal
 AE processes. Yet the resulting data remains fragmented, as outcomes are
-scattered across …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/white-2025/">Enabling Cloud-Scale Distributed Capabilities</a></h2>
-    <div class="article-style">
-      
-      Modern applications rely on service-oriented architectures to increase development productivity, cost-effectiveness, and scalability. However, the growing complexity of cloud stacks, driven by multi-tenancy, multi-party computations, and dynamic …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/peng-2025/">Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication</a></h2>
-    <div class="article-style">
-      
-      Modern software architectures in cloud computing are highly reliant
-on interconnected local and remote services.
-Popular architectures, such as the service mesh,
-rely on the use of independent services or sidecars for
-a single application. While …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/narayan-2025/">Segue &amp; ColorGuard: Optimizing SFI Performance and Scalability on Modern Architectures</a></h2>
-    <div class="article-style">
-      
-      Software-based fault isolation (SFI) enables in-process isolation through compiler instrumentation of memory accesses,
-and is a critical part of WebAssembly (Wasm). We present
-two optimizations that improve SFI performance and scalability: Segue …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/yang-2024-endokernel/">Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation</a></h2>
-    <div class="article-style">
-      
-      Compartmentalization decomposes applications into isolated components, effectively confining the scope of potential security breaches. Recent approaches nest the protection monitor within processes for efficient memory isolation at the cost of …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/narayan-2024/">Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing</a></h2>
-    <div class="article-style">
-      
-      Hardware-assisted fault isolation (HFI) is a minimal extension to current processors that supports secure, flexible, and efficient in-process isolation. HFI addresses the limitations of existing software-based fault isolation (SFI) systems, including …
-      
-    </div>
-  </div>
-  
+scattered across venue-specific, inconsistent websites, lacking machine-readable
+metadata and cross-venue aggregation. This prevents the community from
+answering fundamental questions about AE adoption trends, institutional
+participation, evaluator workload and retention, and AE sustainability at scale.
+It also breaks the creation&ndash;evaluation&ndash;reuse loop: no search by, e.g., topic, exists
+across security and systems artifacts, limiting artifact discovery and reuse.</p>
 
-  
-<nav>
-  <ul class="pagination justify-content-center">
+<p>We present ReproDB, an open-source automated pipeline that scrapes AE results,
+committees, author metadata, and repository statistics from 13 security
+and systems conferences (2017-2026) and homogenizes them into a unified dataset.
+Building on this foundation, the platform enables three capabilities: (1)~the
+first cross-venue analysis of AE, revealing AE health challenges and
+open-science policies as the strongest lever for participation; (2)~a combined
+metric that captures both artifact creation and AE committee service,
+visualizing reproducibility labor; and (3)~the first cross-venue artifact search
+engine, closing the creation&ndash;evaluation&ndash;reuse loop by enabling discovery by
+topic, author, institution, or venue.</p>
+</p>
     
-    
-    <li class="page-item"><a class="page-link" href="/publication_types/1/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference/Workshop paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the ACM Conference on Reproducibility and Replicability</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            June, 2025
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+    
+
+  </div>
 </div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
@@ -621,6 +736,4 @@ two optimizations that improve SFI performance and scalability: Segue …
 
   </body>
 </html>
-
-
 
