@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 May 2027 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vahldiek.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SDP: Sensitive Data Protection</title>
+      <link>https://vahldiek.github.io/publication/feng-2027/</link>
+      <pubDate>Mon, 17 May 2027 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/feng-2027/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Address Translation Service for Confidential Computing</title>
+      <link>https://vahldiek.github.io/publication/sridhara-2026/</link>
+      <pubDate>Mon, 07 Dec 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/sridhara-2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems</title>

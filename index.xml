@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>SDP: Sensitive Data Protection</title>
+      <link>https://vahldiek.github.io/publication/feng-2027/</link>
+      <pubDate>Mon, 17 May 2027 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/feng-2027/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Address Translation Service for Confidential Computing</title>
+      <link>https://vahldiek.github.io/publication/sridhara-2026/</link>
+      <pubDate>Mon, 07 Dec 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://vahldiek.github.io/publication/sridhara-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ReproDB: An Open Platform for Discovering Research Artifacts and Analyzing their Evaluation in Security and Systems</title>
       <link>https://vahldiek.github.io/publication/vahldiek-2026/</link>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://vahldiek.github.io/publication/vahldiek-oberwagner-2024-modelaccuracy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation</title>
-      <link>https://vahldiek.github.io/publication/yang-2024-endokernel/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/yang-2024-endokernel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware-Assisted Fault Isolation: Going Beyond the Limits of Software-Based Sandboxing</title>
-      <link>https://vahldiek.github.io/publication/narayan-2024/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://vahldiek.github.io/publication/narayan-2024/</guid>
       <description></description>
     </item>
     
